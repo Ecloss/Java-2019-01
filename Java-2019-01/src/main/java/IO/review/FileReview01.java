@@ -1,6 +1,7 @@
 package IO.review;
 
 import java.io.*;
+import java.nio.file.Path;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -64,6 +65,7 @@ public class FileReview01 {
     public static void demo02() throws IOException {
         /** fileInputStream */
         File file = new File("F:\\Workspace\\Java-EE\\Java-2019-01\\src\\main\\file\\FileDemo01");
+        //Path
         if (!file.exists()) {
             file.mkdirs();
         }

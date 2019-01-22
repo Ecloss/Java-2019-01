@@ -43,7 +43,7 @@ class Book implements Serializable {
     /**
      * 关键字transient，标记了此关键字，当序列化和反序列化的时候就不会生成该数据
      */
-    private String title;
+    private transient String title;
 
     private String price;
 
