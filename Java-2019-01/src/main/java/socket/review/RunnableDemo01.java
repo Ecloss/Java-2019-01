@@ -1,4 +1,4 @@
-package thread.one.thread;
+package socket.review;
 
 import org.junit.Test;
 
