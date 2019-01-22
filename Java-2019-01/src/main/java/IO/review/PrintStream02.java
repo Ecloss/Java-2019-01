@@ -3,6 +3,7 @@ package IO.review;
 import java.io.*;
 import java.util.Scanner;
 import java.util.function.Consumer;
+//import java.util.function.Consumer;
 
 /**
  * 打印流，System的输出流
@@ -42,10 +43,10 @@ public class PrintStream02 {
      * out: PrintStream
      * err: PrintStream
      */
-    public static void demo02() throws IOException {
-        Consumer<String> consumer = System.out::println;
-        consumer.accept("I like to anyThing");
-    }
+    //public static void demo02() throws IOException {
+    //    Consumer<String> consumer = System.out::println;
+    //    consumer.accept("I like to anyThing");
+    //}
 
     /**
      * 缓冲输入流：
