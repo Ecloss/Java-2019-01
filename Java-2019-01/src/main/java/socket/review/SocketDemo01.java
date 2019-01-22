@@ -37,12 +37,12 @@ class RunnableDemo01 implements Runnable {
 /**
  * Thread 继承父类实现多线程
  */
-class ThreadDemo01 extends Thread {
+class ThreadDemo06 extends Thread {
 
     @Override
     public void run() {
-        System.out.println("线程的名字为：" + this.currentThread().getName());
-        System.out.println("线程的优先级为："+ this.currentThread().getPriority());
+        System.out.println("线程的名字为：" + currentThread().getName());
+        System.out.println("线程的优先级为："+ currentThread().getPriority());
     }
 }
 

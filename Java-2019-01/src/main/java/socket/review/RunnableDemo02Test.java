@@ -9,7 +9,7 @@ import org.junit.Test;
  * @author 余修文
  * @date 2019/1/18 15:50
  */
-public class RunnableDemo02 {
+public class RunnableDemo02Test {
 
     @Test
     public void demo01() {
