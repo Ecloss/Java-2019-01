@@ -15,8 +15,8 @@ public class SerializableDemo02 implements Serializable {
     private static final long serialVersionUID = -5442246051651927758L;
 
     public static void main(String[] args) throws Exception {
-        ser();
-        dser();
+        ser1();
+        der1();
     }
 
     /**
@@ -25,7 +25,7 @@ public class SerializableDemo02 implements Serializable {
      * @throws Exception
      */
     public static void ser() throws Exception {
-        ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(new File("F:\\Workspace\\Java-EE\\Java-2019-01\\src\\main\\file\\FileDemo01")));
+        ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(new File("src/main/file/FileDemo01")));
         oos.writeObject(new Book("Java", "123.12"));
         oos.close();
     }
@@ -36,9 +36,22 @@ public class SerializableDemo02 implements Serializable {
      * @throws Exception
      */
     public static void dser() throws Exception {
-        ObjectInputStream ois = new ObjectInputStream(new FileInputStream(new File("F:\\Workspace\\Java-EE\\Java-2019-01\\src\\main\\file\\FileDemo01")));
+        ObjectInputStream ois = new ObjectInputStream(new FileInputStream(new File("src/main/file/FileDemo01")));
         Object obj = ois.readObject();
         Book book = (Book)obj;
+        System.out.println(book.getPrice() + "\n" + book.getTitle());
+    }
+
+    public static void ser1() throws Exception {
+        ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("src/main/file/FileDemo01"));
+        oos.writeObject(new Book("Python", "89.89"));
+        oos.close();
+    }
+
+    public static void der1() throws Exception {
+        ObjectInputStream ois = new ObjectInputStream(new FileInputStream("src/main/file/FileDemo01"));
+        Object obj = ois.readObject();
+        Book book = (Book) obj;
         System.out.println(book.getPrice() + "\n" + book.getTitle());
     }
 
@@ -77,4 +90,6 @@ class Book implements Serializable {
     public void setPrice(String price) {
         this.price = price;
     }
+
+
 }

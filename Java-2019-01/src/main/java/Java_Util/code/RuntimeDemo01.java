@@ -1,8 +1,11 @@
 package Java_Util.code;
 
 import org.junit.Test;
+import other.other2019_02.ThisDemo01;
 
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Runtime
@@ -83,6 +86,12 @@ public class RuntimeDemo01 {
         bookA.setPrice("123");
         System.out.println(book.toString() + "\n");
         System.out.println(bookA.toString());
+    }
+
+    @Test
+    public void demo06() {
+        ThisDemo01 thisDemo01 = new ThisDemo01();
+        List<Integer> list = new ArrayList<>();
     }
 
 }
