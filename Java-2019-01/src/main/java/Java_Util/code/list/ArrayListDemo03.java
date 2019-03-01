@@ -3,6 +3,7 @@ package Java_Util.code.list;
 import org.junit.Test;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
@@ -31,6 +32,35 @@ public class ArrayListDemo03 {
         }
         long endTime1 = System.currentTimeMillis();
         System.out.println("使用ensureCapacity后： " + (endTime1 - startTime1));
+    }
+
+    @Test
+    public void demo02() {
+        int[] a = new int[10];
+        a[0] = 0;
+        a[1] = 1;
+        a[2] = 2;
+        a[3] = 3;
+        System.arraycopy(a, 2, a, 3, 3);
+        a[2] = 99;
+        for (int i = 0; i < a.length; i++) {
+            System.out.println(a[i]);
+        }
+    }
+
+    @Test
+    public void demo03() {
+        int[] a = new int[3];
+        a[0] = 0;
+        a[1] = 1;
+        a[2] = 2;
+        int[] b = Arrays.copyOf(a, 10);
+        System.out.println(b.length);
+    }
+
+    @Test
+    public void demo04() {
+
     }
 
 }
