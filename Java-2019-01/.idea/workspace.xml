@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5464b039-a623-4ab5-aa88-f0f3251d62d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java_guide/socket/code/乐观锁和悲观锁" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java_guide/socket/code/AtomicArrayDemo01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java_guide/socket/code/AtomicDemo01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java_guide/socket/code/AtomicReferenceDemo02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java_guide/socket/code/AtomicUpdaterDemo01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java_guide/socket/code/ReenTrantLockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java_guide/socket/code/ReenTrantLockDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Java-Design" beforeDir="false" afterPath="$PROJECT_DIR$/../Java-Design" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Java-EE" beforeDir="false" afterPath="$PROJECT_DIR$/../Java-EE" afterDir="false" />
     </list>
@@ -18,25 +20,107 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java_guide/socket/code/ReenTrantLockDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java_guide/socket/code/AtomicDemo01.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="46" column="14" lean-forward="true" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
+            <state relative-caret-position="835">
+              <caret line="64" column="22" selection-start-line="64" selection-start-column="22" selection-end-line="64" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1104#1105#0" expanded="true" />
-                <element signature="e#1132#1133#0" expanded="true" />
+                <element signature="e#2305#2306#0" expanded="true" />
+                <element signature="e#2370#2371#0" expanded="true" />
+                <element signature="e#2209#2210#0" expanded="true" />
+                <element signature="e#2229#2230#0" expanded="true" />
+                <element signature="e#2261#2262#0" expanded="true" />
+                <element signature="e#2288#2289#0" expanded="true" />
+                <element signature="e#2430#2431#0" expanded="true" />
+                <element signature="e#2450#2451#0" expanded="true" />
+                <element signature="e#2612#2613#0" expanded="true" />
+                <element signature="e#2640#2641#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java_guide/socket/code/AtomicArrayDemo01.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="436">
+              <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java_guide/socket/code/AtomicReferenceDemo02.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="e#443#444#0" expanded="true" />
+                <element signature="e#470#471#0" expanded="true" />
+                <element signature="e#510#511#0" expanded="true" />
+                <element signature="e#542#543#0" expanded="true" />
+                <element signature="e#569#570#0" expanded="true" />
+                <element signature="e#595#596#0" expanded="true" />
+                <element signature="e#630#631#0" expanded="true" />
+                <element signature="e#660#661#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java_guide/socket/code/AtomicUpdaterDemo01.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="24" column="71" selection-start-line="24" selection-start-column="71" selection-end-line="24" selection-end-column="71" />
+              <folding>
+                <element signature="e#604#605#0" expanded="true" />
+                <element signature="e#631#632#0" expanded="true" />
+                <element signature="e#671#672#0" expanded="true" />
+                <element signature="e#703#704#0" expanded="true" />
+                <element signature="e#730#731#0" expanded="true" />
+                <element signature="e#756#757#0" expanded="true" />
+                <element signature="e#791#792#0" expanded="true" />
+                <element signature="e#821#822#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/util/concurrent/atomic/AtomicIntegerArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="663">
+              <caret line="91" column="11" selection-start-line="91" selection-start-column="11" selection-end-line="91" selection-end-column="11" />
+              <folding>
+                <element signature="e#1812#1813#0" expanded="true" />
+                <element signature="e#1851#1852#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/util/concurrent/atomic/AtomicBoolean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-47">
+              <caret line="76" column="11" selection-start-line="76" selection-start-column="11" selection-end-line="76" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="134" lean-forward="true" selection-start-line="134" selection-end-line="134" />
+            <state relative-caret-position="254">
+              <caret line="56" column="4" lean-forward="true" selection-start-line="56" selection-start-column="4" selection-end-line="67" selection-end-column="31" />
               <folding>
+                <element signature="e#1762#1763#0" expanded="true" />
+                <element signature="e#1798#1799#0" expanded="true" />
                 <element signature="e#4021#4022#0" expanded="true" />
                 <element signature="e#4085#4086#0" expanded="true" />
               </folding>
@@ -45,79 +129,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/lang/Number.java">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/jre/lib/rt.jar!/sun/misc/Unsafe.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="54" column="22" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java_guide/socket/code/乐观锁和悲观锁">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="42">
-                <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java_guide/socket/code/Singleton.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="18" column="45" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/socket/code/ThreadDemo03.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1323">
-              <caret line="66" column="6" selection-start-line="66" selection-start-column="6" selection-end-line="66" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="579">
-              <caret line="244" column="17" selection-start-line="244" selection-start-column="17" selection-end-line="244" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="548" column="25" selection-start-line="548" selection-start-column="25" selection-end-line="548" selection-end-column="25" />
-              <folding>
-                <element signature="e#22675#22676#0" expanded="true" />
-                <element signature="e#22703#22704#0" expanded="true" />
-                <element signature="e#22933#22934#0" expanded="true" />
-                <element signature="e#22965#22966#0" expanded="true" />
-                <element signature="e#41392#41393#0" expanded="true" />
-                <element signature="e#41449#41450#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/lang/Thread.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="695" column="29" selection-start-line="695" selection-start-column="29" selection-end-line="695" selection-end-column="29" />
-              <folding>
-                <element signature="e#36478#36479#0" expanded="true" />
-                <element signature="e#36536#36537#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="276">
+              <caret line="267" column="23" selection-start-line="267" selection-start-column="23" selection-end-line="267" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -133,9 +148,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>dest</find>
-      <find>finalize()</find>
-      <find>clone()</find>
       <find>gc</find>
       <find>Volatile</find>
       <find>tra</find>
@@ -162,7 +174,10 @@
       <find>thread</find>
       <find>getAnd</find>
       <find>getAndincrement</find>
+      <find>get</find>
       <find>compareAndSet</find>
+      <find>lazySet</find>
+      <find>private static final Unsafe</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -214,6 +229,10 @@
         <option value="$PROJECT_DIR$/src/main/java_guide/socket/code/SynchronizedDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java_guide/socket/code/乐观锁和悲观锁" />
         <option value="$PROJECT_DIR$/src/main/java_guide/socket/code/ReenTrantLockDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java_guide/socket/code/AtomicDemo01.java" />
+        <option value="$PROJECT_DIR$/src/main/java_guide/socket/code/AtomicArrayDemo01.java" />
+        <option value="$PROJECT_DIR$/src/main/java_guide/socket/code/AtomicReferenceDemo02.java" />
+        <option value="$PROJECT_DIR$/src/main/java_guide/socket/code/AtomicUpdaterDemo01.java" />
       </list>
     </option>
   </component>
@@ -290,6 +309,65 @@
               <item name="socket" type="462c0819:PsiDirectoryNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Java-2019-01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java-2019-01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java_guide" type="462c0819:PsiDirectoryNode" />
+              <item name="socket" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="AtomicDemo01.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="Java-2019-01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="Java-2019-01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="Java-2019-01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java-2019-01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java-2019-01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java-2019-01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java-2019-01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="atomic" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -317,13 +395,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ThreadDemo03">
-    <configuration name="HashMapDemo02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Util.code.map.HashMapDemo02" />
+  <component name="RunManager" selected="Application.AtomicUpdaterDemo01">
+    <configuration name="AtomicReferenceDemo02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="socket.code.AtomicReferenceDemo02" />
       <module name="Java-2019-01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_Util.code.map.*" />
+          <option name="PATTERN" value="socket.code.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -331,12 +409,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListDemo02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Util.code.list.LinkedListDemo02" />
+    <configuration name="AtomicUpdaterDemo01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="socket.code.AtomicUpdaterDemo01" />
       <module name="Java-2019-01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_Util.code.list.*" />
+          <option name="PATTERN" value="socket.code.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -357,32 +435,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayListDemo03.demo01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AtomicArrayDemo01.demo01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java-2019-01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_Util.code.list.*" />
+          <option name="PATTERN" value="socket.code.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Java_Util.code.list" />
-      <option name="MAIN_CLASS_NAME" value="Java_Util.code.list.ArrayListDemo03" />
+      <option name="PACKAGE_NAME" value="socket.code" />
+      <option name="MAIN_CLASS_NAME" value="socket.code.AtomicArrayDemo01" />
       <option name="METHOD_NAME" value="demo01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingletonDemo01.demo01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AtomicDemo01.demo01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java-2019-01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="socket.demo.*" />
+          <option name="PATTERN" value="socket.code.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="socket.demo" />
-      <option name="MAIN_CLASS_NAME" value="socket.demo.SingletonDemo01" />
+      <option name="PACKAGE_NAME" value="socket.code" />
+      <option name="MAIN_CLASS_NAME" value="socket.code.AtomicDemo01" />
       <option name="METHOD_NAME" value="demo01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -391,11 +469,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AtomicUpdaterDemo01" />
+        <item itemvalue="Application.AtomicReferenceDemo02" />
+        <item itemvalue="JUnit.AtomicArrayDemo01.demo01" />
+        <item itemvalue="JUnit.AtomicDemo01.demo01" />
         <item itemvalue="Application.ThreadDemo03" />
-        <item itemvalue="JUnit.SingletonDemo01.demo01" />
-        <item itemvalue="Application.HashMapDemo02" />
-        <item itemvalue="Application.LinkedListDemo02" />
-        <item itemvalue="JUnit.ArrayListDemo03.demo01" />
       </list>
     </recent_temporary>
   </component>
@@ -431,7 +509,7 @@
       <workItem from="1551405701689" duration="4009000" />
       <workItem from="1551750149846" duration="700000" />
       <workItem from="1551773250855" duration="599000" />
-      <workItem from="1552441962175" duration="9463000" />
+      <workItem from="1552441962175" duration="17176000" />
     </task>
     <task id="LOCAL-00001" summary="2019--01/20">
       <created>1547988207797</created>
@@ -510,43 +588,50 @@
       <option name="project" value="LOCAL" />
       <updated>1552455169934</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="2019--03/13--Atomic原子类总结">
+      <created>1552460909936</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1552460909936</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DateTimeDemo01_demo03 - 2019.01.29 at 11h 38m 31s.xml">
-      <configuration name="DateTimeDemo01.demo03" configurationId="JUnit" />
+    <history-entry file="AtomicDemo01_demo01 - 2019.03.13 at 15h 39m 54s.xml">
+      <configuration name="AtomicDemo01.demo01" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HelloWorldDemo01_demo01 - 2019.02.21 at 16h 52m 40s.xml">
-      <configuration name="HelloWorldDemo01.demo01" configurationId="JUnit" />
+    <history-entry file="AtomicDemo01_demo01 - 2019.03.13 at 15h 49m 42s.xml">
+      <configuration name="AtomicDemo01.demo01" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HelloWorldDemo01_demo01 - 2019.02.21 at 16h 56m 01s.xml">
-      <configuration name="HelloWorldDemo01.demo01" configurationId="JUnit" />
+    <history-entry file="AtomicArrayDemo01_demo01 - 2019.03.13 at 16h 47m 50s.xml">
+      <configuration name="AtomicArrayDemo01.demo01" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArrayListDemo03_demo01 - 2019.02.27 at 17h 38m 12s.xml">
-      <configuration name="ArrayListDemo03.demo01" configurationId="JUnit" />
+    <history-entry file="AtomicArrayDemo01_demo01 - 2019.03.13 at 16h 47m 56s.xml">
+      <configuration name="AtomicArrayDemo01.demo01" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArrayListDemo03_demo01 - 2019.02.27 at 17h 40m 06s.xml">
-      <configuration name="ArrayListDemo03.demo01" configurationId="JUnit" />
+    <history-entry file="AtomicArrayDemo01_demo01 - 2019.03.13 at 16h 48m 08s.xml">
+      <configuration name="AtomicArrayDemo01.demo01" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArrayListDemo03_demo02 - 2019.02.28 at 10h 07m 36s.xml">
-      <configuration name="ArrayListDemo03.demo02" configurationId="JUnit" />
+    <history-entry file="AtomicArrayDemo01_demo01 - 2019.03.13 at 16h 51m 05s.xml">
+      <configuration name="AtomicArrayDemo01.demo01" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArrayListDemo03_demo03 - 2019.02.28 at 10h 09m 49s.xml">
-      <configuration name="ArrayListDemo03.demo03" configurationId="JUnit" />
+    <history-entry file="AtomicArrayDemo01_demo01 - 2019.03.13 at 16h 53m 28s.xml">
+      <configuration name="AtomicArrayDemo01.demo01" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArrayListDemo03_demo01 - 2019.02.28 at 13h 39m 43s.xml">
-      <configuration name="ArrayListDemo03.demo01" configurationId="JUnit" />
+    <history-entry file="AtomicArrayDemo01_demo01 - 2019.03.13 at 16h 56m 08s.xml">
+      <configuration name="AtomicArrayDemo01.demo01" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArrayListDemo03_demo01 - 2019.02.28 at 13h 39m 54s.xml">
-      <configuration name="ArrayListDemo03.demo01" configurationId="JUnit" />
+    <history-entry file="AtomicArrayDemo01_demo01 - 2019.03.13 at 16h 58m 30s.xml">
+      <configuration name="AtomicArrayDemo01.demo01" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SingletonDemo01_demo01 - 2019.03.13 at 10h 32m 27s.xml">
-      <configuration name="SingletonDemo01.demo01" configurationId="JUnit" />
+    <history-entry file="AtomicArrayDemo01_demo01 - 2019.03.13 at 17h 02m 10s.xml">
+      <configuration name="AtomicArrayDemo01.demo01" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99010000" />
+    <option name="totallyTimeSpent" value="106723000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -561,7 +646,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.1682641" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.21458998" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -571,7 +656,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.303433" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30011073" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -609,54 +694,10 @@
     <MESSAGE value="2019--02/28" />
     <MESSAGE value="2019--03/01" />
     <MESSAGE value="2019--03/13--Synchronized和ReenTrantLock的底层实现，Synchronized在jdk1.6之后的优化" />
-    <option name="LAST_COMMIT_MESSAGE" value="2019--03/13--Synchronized和ReenTrantLock的底层实现，Synchronized在jdk1.6之后的优化" />
+    <MESSAGE value="2019--03/13--Atomic原子类总结" />
+    <option name="LAST_COMMIT_MESSAGE" value="2019--03/13--Atomic原子类总结" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Java_Util/code/DateTimeDemo01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="42" column="42" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/IO/review/BufferedArrayStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="71" selection-start-line="18" selection-start-column="71" selection-end-line="18" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/other/other2019_02/ThisDemo01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1008">
-          <caret line="62" column="12" selection-start-line="62" selection-start-column="12" selection-end-line="62" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/IO/Scanner/SerializableDemo02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1785">
-          <caret line="93" selection-start-line="93" selection-end-line="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/IO/review/SerializableDemo03.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="903">
-          <caret line="43" column="10" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Java_Util/code/RuntimeDemo01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="93" column="47" selection-start-line="93" selection-start-column="47" selection-end-line="93" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/other/other2019_02/inherit/LoversPeople.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -1015,18 +1056,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java_guide/socket/code/ReenTrantLockDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="46" column="14" lean-forward="true" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1104#1105#0" expanded="true" />
-            <element signature="e#1132#1133#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/lang/Number.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="292">
@@ -1034,20 +1063,114 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java_guide/socket/code/ReenTrantLockDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/jre/lib/rt.jar!/sun/misc/Unsafe.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        <state relative-caret-position="276">
+          <caret line="267" column="23" selection-start-line="267" selection-start-column="23" selection-end-line="267" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="134" lean-forward="true" selection-start-line="134" selection-end-line="134" />
+        <state relative-caret-position="254">
+          <caret line="56" column="4" lean-forward="true" selection-start-line="56" selection-start-column="4" selection-end-line="67" selection-end-column="31" />
           <folding>
+            <element signature="e#1762#1763#0" expanded="true" />
+            <element signature="e#1798#1799#0" expanded="true" />
             <element signature="e#4021#4022#0" expanded="true" />
             <element signature="e#4085#4086#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/util/concurrent/atomic/AtomicBoolean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-47">
+          <caret line="76" column="11" selection-start-line="76" selection-start-column="11" selection-end-line="76" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java_guide/socket/code/AtomicDemo01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="835">
+          <caret line="64" column="22" selection-start-line="64" selection-start-column="22" selection-end-line="64" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2305#2306#0" expanded="true" />
+            <element signature="e#2370#2371#0" expanded="true" />
+            <element signature="e#2209#2210#0" expanded="true" />
+            <element signature="e#2229#2230#0" expanded="true" />
+            <element signature="e#2261#2262#0" expanded="true" />
+            <element signature="e#2288#2289#0" expanded="true" />
+            <element signature="e#2430#2431#0" expanded="true" />
+            <element signature="e#2450#2451#0" expanded="true" />
+            <element signature="e#2612#2613#0" expanded="true" />
+            <element signature="e#2640#2641#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/util/concurrent/atomic/AtomicIntegerArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="91" column="11" selection-start-line="91" selection-start-column="11" selection-end-line="91" selection-end-column="11" />
+          <folding>
+            <element signature="e#1812#1813#0" expanded="true" />
+            <element signature="e#1851#1852#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java_guide/socket/code/AtomicArrayDemo01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java_guide/socket/code/AtomicReferenceDemo02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#443#444#0" expanded="true" />
+            <element signature="e#470#471#0" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#569#570#0" expanded="true" />
+            <element signature="e#595#596#0" expanded="true" />
+            <element signature="e#630#631#0" expanded="true" />
+            <element signature="e#660#661#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java_guide/socket/code/AtomicUpdaterDemo01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="24" column="71" selection-start-line="24" selection-start-column="71" selection-end-line="24" selection-end-column="71" />
+          <folding>
+            <element signature="e#604#605#0" expanded="true" />
+            <element signature="e#631#632#0" expanded="true" />
+            <element signature="e#671#672#0" expanded="true" />
+            <element signature="e#703#704#0" expanded="true" />
+            <element signature="e#730#731#0" expanded="true" />
+            <element signature="e#756#757#0" expanded="true" />
+            <element signature="e#791#792#0" expanded="true" />
+            <element signature="e#821#822#0" expanded="true" />
           </folding>
         </state>
       </provider>
