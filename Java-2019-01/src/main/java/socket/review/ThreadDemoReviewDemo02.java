@@ -6,7 +6,10 @@ import java.io.IOException;
  * 多线程之Thread实现
  * 面试题目：
  * 1. 请解释Thread和Runnable接口实现多线程的区别。
- *
+ * synchronized关键字使用的几种方法：
+ * 1. 实例化方法
+ * 2. 静态方法
+ * 3. 代码块
  *
  * @author 余修文
  * @date 2019/1/21 9:23
@@ -68,7 +71,18 @@ class RunnableDemo04 implements Runnable {
 
     public synchronized void sale() {
         while (ticket > 0) {
-            System.out.println(Thread.currentThread().getName() + "买了一张票，剩余：" + (--this.ticket) + "张。");
+            // 添加代码块
+            synchronized (this) {
+                System.out.println(Thread.currentThread().getName() + "买了一张票，剩余：" + (--this.ticket) + "张。");
+            }
         }
     }
+
+    public synchronized static void add() {
+        for (int i = 0; i < 100; i++) {
+            System.out.println("i = " + i);
+        }
+    }
+
+
 }
