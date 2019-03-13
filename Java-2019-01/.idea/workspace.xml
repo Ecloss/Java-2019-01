@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5464b039-a623-4ab5-aa88-f0f3251d62d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java_guide/socket/code/ReenTrantLockDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java_guide/socket/code/Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java_guide/socket/code/SynchronizedDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java_guide/socket/demo/SingletonDemo01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java_guide/socket/code/乐观锁和悲观锁" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/socket/review/ThreadDemoReviewDemo02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/socket/review/ThreadDemoReviewDemo02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java_guide/socket/code/ReenTrantLockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java_guide/socket/code/ReenTrantLockDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Java-Design" beforeDir="false" afterPath="$PROJECT_DIR$/../Java-Design" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Java-EE" beforeDir="false" afterPath="$PROJECT_DIR$/../Java-EE" afterDir="false" />
     </list>
@@ -23,20 +20,56 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java_guide/socket/code/ReenTrantLockDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="772">
-              <caret line="45" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="646">
+              <caret line="46" column="14" lean-forward="true" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1104#1105#0" expanded="true" />
+                <element signature="e#1132#1133#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="338">
+              <caret line="134" lean-forward="true" selection-start-line="134" selection-end-line="134" />
+              <folding>
+                <element signature="e#4021#4022#0" expanded="true" />
+                <element signature="e#4085#4086#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/lang/Number.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="292">
+              <caret line="54" column="22" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java_guide/socket/code/乐观锁和悲观锁">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="42">
+                <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java_guide/socket/code/Singleton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+            <state relative-caret-position="252">
+              <caret line="18" column="45" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -100,9 +133,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>toString(</find>
-      <find>totalMe</find>
-      <find>exec(</find>
       <find>dest</find>
       <find>finalize()</find>
       <find>clone()</find>
@@ -130,6 +160,9 @@
       <find>putVal</find>
       <find>synchro</find>
       <find>thread</find>
+      <find>getAnd</find>
+      <find>getAndincrement</find>
+      <find>compareAndSet</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -179,6 +212,7 @@
         <option value="$PROJECT_DIR$/src/main/java_guide/socket/code/Singleton.java" />
         <option value="$PROJECT_DIR$/src/main/java_guide/socket/demo/SingletonDemo01.java" />
         <option value="$PROJECT_DIR$/src/main/java_guide/socket/code/SynchronizedDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java_guide/socket/code/乐观锁和悲观锁" />
         <option value="$PROJECT_DIR$/src/main/java_guide/socket/code/ReenTrantLockDemo.java" />
       </list>
     </option>
@@ -397,7 +431,7 @@
       <workItem from="1551405701689" duration="4009000" />
       <workItem from="1551750149846" duration="700000" />
       <workItem from="1551773250855" duration="599000" />
-      <workItem from="1552441962175" duration="7400000" />
+      <workItem from="1552441962175" duration="9463000" />
     </task>
     <task id="LOCAL-00001" summary="2019--01/20">
       <created>1547988207797</created>
@@ -469,7 +503,14 @@
       <option name="project" value="LOCAL" />
       <updated>1551407217305</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="2019--03/13--Synchronized和ReenTrantLock的底层实现，Synchronized在jdk1.6之后的优化">
+      <created>1552455169933</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1552455169934</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -505,7 +546,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96947000" />
+    <option name="totallyTimeSpent" value="99010000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -567,45 +608,10 @@
     <MESSAGE value="2019--02/26" />
     <MESSAGE value="2019--02/28" />
     <MESSAGE value="2019--03/01" />
-    <option name="LAST_COMMIT_MESSAGE" value="2019--03/01" />
+    <MESSAGE value="2019--03/13--Synchronized和ReenTrantLock的底层实现，Synchronized在jdk1.6之后的优化" />
+    <option name="LAST_COMMIT_MESSAGE" value="2019--03/13--Synchronized和ReenTrantLock的底层实现，Synchronized在jdk1.6之后的优化" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Java_Util/code/MathDemo01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/util/TimeZone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12054">
-          <caret line="632" column="39" selection-start-line="632" selection-start-column="39" selection-end-line="632" selection-end-column="39" />
-          <folding>
-            <element signature="e#23369#23370#0" expanded="true" />
-            <element signature="e#23426#23427#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/time/ZoneId.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2515">
-          <caret line="273" column="27" selection-start-line="273" selection-start-column="27" selection-end-line="273" selection-end-column="27" />
-          <folding>
-            <element signature="e#11168#11169#0" expanded="true" />
-            <element signature="e#11223#11224#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/time/Instant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="814">
-          <caret line="206" column="19" selection-start-line="206" selection-start-column="19" selection-end-line="206" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Java_Util/code/DateTimeDemo01.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="373">
@@ -985,6 +991,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java_guide/socket/code/Singleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="18" column="45" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/socket/code/ThreadDemo03.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1323">
@@ -992,20 +1005,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java_guide/socket/code/乐观锁和悲观锁">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="42">
+            <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java_guide/socket/code/ReenTrantLockDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="772">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        <state relative-caret-position="646">
+          <caret line="46" column="14" lean-forward="true" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1104#1105#0" expanded="true" />
+            <element signature="e#1132#1133#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java_guide/socket/code/Singleton.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/lang/Number.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        <state relative-caret-position="292">
+          <caret line="54" column="22" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/jre/lib/rt.jar!/sun/misc/Unsafe.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="134" lean-forward="true" selection-start-line="134" selection-end-line="134" />
+          <folding>
+            <element signature="e#4021#4022#0" expanded="true" />
+            <element signature="e#4085#4086#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -2,6 +2,7 @@ package socket.code;
 
 import org.junit.Test;
 
+import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
@@ -43,7 +44,6 @@ public class ReenTrantLockDemo {
 
     @Test
     public void demo03() {
-
     }
 
 }
