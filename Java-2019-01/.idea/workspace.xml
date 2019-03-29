@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5464b039-a623-4ab5-aa88-f0f3251d62d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/other/other2019_03/Demo0328.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/other/other2019_03/day0328/Girl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/other/other2019_03/day0328/TestInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java_guide/java_util/TestArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java_guide/java_util/HashMapSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java_guide/java_util/TestDemo0329.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java_guide/socket/code/AQS/AQSDemo01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java_guide/socket/code/AQS/SemaphoreDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Java-Design" beforeDir="false" afterPath="$PROJECT_DIR$/../Java-Design" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Java-EE" beforeDir="false" afterPath="$PROJECT_DIR$/../Java-EE" afterDir="false" />
@@ -17,31 +17,31 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Java-2019-01" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/other/other2019_03/Demo0328.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java_guide/socket/code/AQS/SemaphoreDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="47" column="34" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
+            <state relative-caret-position="435">
+              <caret line="40" column="69" selection-start-line="40" selection-start-column="69" selection-end-line="40" selection-end-column="69" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#937#938#0" expanded="true" />
-                <element signature="e#990#991#0" expanded="true" />
-                <element signature="e#1224#1225#0" expanded="true" />
-                <element signature="e#1252#1253#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java_guide/java_util/TestArrays.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/util/concurrent/Semaphore.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-278">
-              <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+            <state relative-caret-position="285">
+              <caret line="424" column="16" selection-start-line="424" selection-start-column="16" selection-end-line="424" selection-end-column="16" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#15885#15886#0" expanded="true" />
+                <element signature="e#15922#15923#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -60,8 +60,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Volatile</find>
-      <find>tra</find>
       <find>lock.</find>
       <find>ensureCapacity</find>
       <find>lock</find>
@@ -90,6 +88,8 @@
       <find>lazySet</find>
       <find>private static final Unsafe</find>
       <find>StringBu</find>
+      <find>isHeldExclusively</find>
+      <find>tryAcquire</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -98,11 +98,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/IO/review/BufferedArrayStream.java" />
-        <option value="$PROJECT_DIR$/src/main/java/socket/readme.md" />
-        <option value="$PROJECT_DIR$/src/main/java/socket/review/RunnableDemo01.java" />
-        <option value="$PROJECT_DIR$/src/main/java/socket/review/RunnableDemo02.java" />
-        <option value="$PROJECT_DIR$/src/main/java/socket/review/SocketDemo01.java" />
         <option value="$PROJECT_DIR$/src/main/java/socket/review/ThreadDemo01.java" />
         <option value="$PROJECT_DIR$/src/main/java/socket/review/RunnableDemo01Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/Java_Util/code/StringBufferDemo01.java" />
@@ -149,6 +144,11 @@
         <option value="$PROJECT_DIR$/src/main/java/other/other2019_03/day0328/TestInterface.java" />
         <option value="$PROJECT_DIR$/src/main/java/other/other2019_03/Demo0328.java" />
         <option value="$PROJECT_DIR$/src/main/java_guide/java_util/TestArrays.java" />
+        <option value="$PROJECT_DIR$/src/main/java_guide/java_util/HashMapSource.java" />
+        <option value="$PROJECT_DIR$/src/main/java_guide/socket/code/AQSDemo01.java" />
+        <option value="$PROJECT_DIR$/src/main/java_guide/java_util/TestDemo0329.java" />
+        <option value="$PROJECT_DIR$/src/main/java_guide/socket/code/AQS/SemphoreDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java_guide/socket/code/AQS/SemaphoreDemo.java" />
       </list>
     </option>
   </component>
@@ -166,7 +166,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -193,10 +192,50 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java_guide" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Java-2019-01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java-2019-01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java_guide" type="462c0819:PsiDirectoryNode" />
+              <item name="java_util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java-2019-01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java-2019-01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java_guide" type="462c0819:PsiDirectoryNode" />
+              <item name="socket" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java-2019-01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java-2019-01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java_guide" type="462c0819:PsiDirectoryNode" />
+              <item name="socket" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java-2019-01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java-2019-01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java_guide" type="462c0819:PsiDirectoryNode" />
+              <item name="socket" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="AQS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java-2019-01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -220,35 +259,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestArrays.demo06">
-    <configuration name="TestArrays.demo02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.SemaphoreDemo">
+    <configuration name="SemaphoreDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="socket.code.AQS.SemaphoreDemo" />
       <module name="Java-2019-01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java_util.*" />
+          <option name="PATTERN" value="socket.code.AQS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="java_util" />
-      <option name="MAIN_CLASS_NAME" value="java_util.TestArrays" />
-      <option name="METHOD_NAME" value="demo02" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestArrays.demo03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java-2019-01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java_util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="java_util" />
-      <option name="MAIN_CLASS_NAME" value="java_util.TestArrays" />
-      <option name="METHOD_NAME" value="demo03" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -301,13 +321,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestDemo0329.demo01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java-2019-01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java_util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="java_util" />
+      <option name="MAIN_CLASS_NAME" value="java_util.TestDemo0329" />
+      <option name="METHOD_NAME" value="demo01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SemaphoreDemo" />
+        <item itemvalue="JUnit.TestDemo0329.demo01" />
         <item itemvalue="JUnit.TestArrays.demo06" />
         <item itemvalue="JUnit.TestArrays.demo05" />
         <item itemvalue="JUnit.TestArrays.demo04" />
-        <item itemvalue="JUnit.TestArrays.demo03" />
-        <item itemvalue="JUnit.TestArrays.demo02" />
       </list>
     </recent_temporary>
   </component>
@@ -354,6 +390,7 @@
       <workItem from="1553479633415" duration="1010000" />
       <workItem from="1553652386096" duration="1569000" />
       <workItem from="1553751236534" duration="7815000" />
+      <workItem from="1553833667387" duration="7928000" />
     </task>
     <task id="LOCAL-00001" summary="2019--01/20">
       <created>1547988207797</created>
@@ -471,15 +508,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestArrays_demo01 - 2019.03.28 at 15h 34m 49s.xml">
-      <configuration name="TestArrays.demo01" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestArrays_demo01 - 2019.03.28 at 15h 35m 40s.xml">
-      <configuration name="TestArrays.demo01" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestArrays_demo01 - 2019.03.28 at 15h 38m 25s.xml">
-      <configuration name="TestArrays.demo01" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestArrays_demo02 - 2019.03.28 at 15h 39m 11s.xml">
       <configuration name="TestArrays.demo02" configurationId="JUnit" />
     </history-entry>
@@ -501,9 +529,18 @@
     <history-entry file="TestArrays_demo06 - 2019.03.28 at 15h 45m 55s.xml">
       <configuration name="TestArrays.demo06" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestDemo0329_demo01 - 2019.03.29 at 12h 37m 22s.xml">
+      <configuration name="TestDemo0329.demo01" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDemo0329_demo01 - 2019.03.29 at 12h 37m 51s.xml">
+      <configuration name="TestDemo0329.demo01" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDemo0329_demo01 - 2019.03.29 at 12h 38m 33s.xml">
+      <configuration name="TestDemo0329.demo01" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132885000" />
+    <option name="totallyTimeSpent" value="140813000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -517,17 +554,17 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.14110756" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49833888" visible="true" weight="0.14110756" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Favorites" order="6" sideWeight="0.5016611" side_tool="true" weight="0.14110756" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28903654" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2868217" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.40223464" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -572,62 +609,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="2019--03/28" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Java_Util/code/list/ArrayListDemo03.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="38" column="30" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Java_Util/code/list/LinkedListDemo01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1407">
-          <caret line="72" column="4" selection-start-line="72" selection-start-column="4" selection-end-line="82" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/io/PrintStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="695" column="9" lean-forward="true" selection-start-line="695" selection-start-column="9" selection-end-line="695" selection-end-column="9" />
-          <folding>
-            <element signature="e#24380#24381#0" expanded="true" />
-            <element signature="e#24405#24406#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/util/LinkedHashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="304" column="9" selection-start-line="304" selection-start-column="9" selection-end-line="304" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="1078" column="18" lean-forward="true" selection-start-line="1078" selection-start-column="18" selection-end-line="1078" selection-end-column="18" />
-          <folding>
-            <element signature="e#19296#19297#0" expanded="true" />
-            <element signature="e#19379#19380#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Java_Util/code/map/HashMapDemo02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="51" column="64" lean-forward="true" selection-start-line="51" selection-start-column="64" selection-end-line="51" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/IO/review/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -707,28 +688,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="548" column="25" selection-start-line="548" selection-start-column="25" selection-end-line="548" selection-end-column="25" />
-          <folding>
-            <element signature="e#22675#22676#0" expanded="true" />
-            <element signature="e#22703#22704#0" expanded="true" />
-            <element signature="e#22933#22934#0" expanded="true" />
-            <element signature="e#22965#22966#0" expanded="true" />
-            <element signature="e#41392#41393#0" expanded="true" />
-            <element signature="e#41449#41450#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="579">
-          <caret line="244" column="17" selection-start-line="244" selection-start-column="17" selection-end-line="244" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1027,22 +986,97 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/other/other2019_03/Demo0328.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
+        <state relative-caret-position="520">
           <caret line="47" column="34" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#937#938#0" expanded="true" />
-            <element signature="e#990#991#0" expanded="true" />
-            <element signature="e#1224#1225#0" expanded="true" />
-            <element signature="e#1252#1253#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java_guide/java_util/TestArrays.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-278">
-          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+        <state relative-caret-position="163">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java_guide/java_util/HashMapSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-252">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+            <element signature="e#452#453#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="230" column="32" selection-start-line="230" selection-start-column="32" selection-end-line="230" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="1322" column="25" selection-start-line="1322" selection-start-column="25" selection-end-line="1322" selection-end-column="25" />
+          <folding>
+            <element signature="e#22675#22676#0" expanded="true" />
+            <element signature="e#22703#22704#0" expanded="true" />
+            <element signature="e#22933#22934#0" expanded="true" />
+            <element signature="e#22965#22966#0" expanded="true" />
+            <element signature="e#41392#41393#0" expanded="true" />
+            <element signature="e#41449#41450#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/util/concurrent/CountDownLatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="276" column="26" selection-start-line="276" selection-start-column="26" selection-end-line="276" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java_guide/java_util/TestDemo0329.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java_guide/socket/code/AQS/AQSDemo01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/util/concurrent/Semaphore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="424" column="16" selection-start-line="424" selection-start-column="16" selection-end-line="424" selection-end-column="16" />
+          <folding>
+            <element signature="e#15885#15886#0" expanded="true" />
+            <element signature="e#15922#15923#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java_guide/socket/code/AQS/SemaphoreDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="40" column="69" selection-start-line="40" selection-start-column="69" selection-end-line="40" selection-end-column="69" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
