@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5464b039-a623-4ab5-aa88-f0f3251d62d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java_guide/java_util/HashMapSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java_guide/java_util/TestDemo0329.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java_guide/socket/code/AQS/AQSDemo01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java_guide/socket/code/AQS/SemaphoreDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java_guide/socket/code/AQS/CountDownLatchDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Java-Design" beforeDir="false" afterPath="$PROJECT_DIR$/../Java-Design" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Java-EE" beforeDir="false" afterPath="$PROJECT_DIR$/../Java-EE" afterDir="false" />
@@ -22,14 +19,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java_guide/socket/code/AQS/SemaphoreDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="40" column="69" selection-start-line="40" selection-start-column="69" selection-end-line="40" selection-end-column="69" />
+            <state relative-caret-position="289">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java_guide/socket/code/AQS/CountDownLatchDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="373">
+              <caret line="50" column="47" selection-start-line="50" selection-start-column="47" selection-end-line="50" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/util/concurrent/CountDownLatch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="292">
+              <caret line="197" column="11" selection-start-line="197" selection-start-column="11" selection-end-line="197" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -98,7 +116,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/socket/review/ThreadDemo01.java" />
         <option value="$PROJECT_DIR$/src/main/java/socket/review/RunnableDemo01Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/Java_Util/code/StringBufferDemo01.java" />
         <option value="$PROJECT_DIR$/src/main/java/Java_Util/code/MathDemo01.java" />
@@ -149,6 +166,7 @@
         <option value="$PROJECT_DIR$/src/main/java_guide/java_util/TestDemo0329.java" />
         <option value="$PROJECT_DIR$/src/main/java_guide/socket/code/AQS/SemphoreDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java_guide/socket/code/AQS/SemaphoreDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java_guide/socket/code/AQS/CountDownLatchDemo.java" />
       </list>
     </option>
   </component>
@@ -259,9 +277,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SemaphoreDemo">
-    <configuration name="SemaphoreDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="socket.code.AQS.SemaphoreDemo" />
+  <component name="RunManager" selected="Application.CountDownLatchDemo">
+    <configuration name="CountDownLatchDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="socket.code.AQS.CountDownLatchDemo" />
       <module name="Java-2019-01" />
       <extension name="coverage">
         <pattern>
@@ -273,18 +291,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestArrays.demo04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SemaphoreDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="socket.code.AQS.SemaphoreDemo" />
       <module name="Java-2019-01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java_util.*" />
+          <option name="PATTERN" value="socket.code.AQS.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="java_util" />
-      <option name="MAIN_CLASS_NAME" value="java_util.TestArrays" />
-      <option name="METHOD_NAME" value="demo04" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -339,11 +354,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountDownLatchDemo" />
         <item itemvalue="Application.SemaphoreDemo" />
         <item itemvalue="JUnit.TestDemo0329.demo01" />
         <item itemvalue="JUnit.TestArrays.demo06" />
         <item itemvalue="JUnit.TestArrays.demo05" />
-        <item itemvalue="JUnit.TestArrays.demo04" />
       </list>
     </recent_temporary>
   </component>
@@ -390,7 +405,7 @@
       <workItem from="1553479633415" duration="1010000" />
       <workItem from="1553652386096" duration="1569000" />
       <workItem from="1553751236534" duration="7815000" />
-      <workItem from="1553833667387" duration="7928000" />
+      <workItem from="1553833667387" duration="9771000" />
     </task>
     <task id="LOCAL-00001" summary="2019--01/20">
       <created>1547988207797</created>
@@ -540,7 +555,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140813000" />
+    <option name="totallyTimeSpent" value="142656000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -553,8 +568,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49833888" visible="true" weight="0.14110756" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49833888" weight="0.14110756" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -564,7 +580,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2868217" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2857143" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.40223464" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -575,7 +591,7 @@
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32705098" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32705098" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32668883" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -609,14 +625,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="2019--03/28" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/IO/review/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/socket/code/ConsumerDemo08.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="562">
@@ -1038,13 +1046,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/util/concurrent/CountDownLatch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="276" column="26" selection-start-line="276" selection-start-column="26" selection-end-line="276" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java_guide/java_util/TestDemo0329.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="667">
@@ -1075,8 +1076,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java_guide/socket/code/AQS/SemaphoreDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="40" column="69" selection-start-line="40" selection-start-column="69" selection-end-line="40" selection-end-column="69" />
+        <state relative-caret-position="289">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/util/concurrent/CountDownLatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="197" column="11" selection-start-line="197" selection-start-column="11" selection-end-line="197" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java_guide/socket/code/AQS/CountDownLatchDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="50" column="47" selection-start-line="50" selection-start-column="47" selection-end-line="50" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
