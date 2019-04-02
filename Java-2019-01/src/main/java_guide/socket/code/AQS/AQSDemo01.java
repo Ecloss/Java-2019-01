@@ -4,6 +4,7 @@ import java.util.concurrent.locks.AbstractQueuedSynchronizer;
 
 /**
  * AQS锁代码
+ * 自定义的一个AQS锁
  *
  * @author 余修文
  * @date 2019/3/29 14:12
@@ -34,6 +35,28 @@ public class AQSDemo01 extends AbstractQueuedSynchronizer {
 
     private volatile int state;
 
+    @Override
+    protected boolean isHeldExclusively() {
+        return super.isHeldExclusively();
+    }
 
+    @Override
+    protected boolean tryAcquire(int arg) {
+        return super.tryAcquire(arg);
+    }
 
+    @Override
+    protected boolean tryRelease(int arg) {
+        return super.tryRelease(arg);
+    }
+
+    @Override
+    protected int tryAcquireShared(int arg) {
+        return super.tryAcquireShared(arg);
+    }
+
+    @Override
+    protected boolean tryReleaseShared(int arg) {
+        return super.tryReleaseShared(arg);
+    }
 }
