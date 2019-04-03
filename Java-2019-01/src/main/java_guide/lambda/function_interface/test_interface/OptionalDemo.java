@@ -1,11 +1,6 @@
 package lambda.function_interface.test_interface;
 
-import com.sun.istack.internal.NotNull;
-
-import javax.swing.text.html.Option;
-import java.util.NoSuchElementException;
 import java.util.Objects;
-import java.util.Optional;
 import java.util.function.Predicate;
 import java.util.function.Supplier;
 
