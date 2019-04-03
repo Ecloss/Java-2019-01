@@ -1,8 +1,13 @@
 package lambda.code;
 
+import lambda.bo.PersonBo;
+import lambda.function_interface.test_interface.ConsumerDemo;
+import lambda.function_interface.test_interface.FunctionsDemo;
 import lambda.function_interface.test_interface.PredicateDemo01;
 import org.junit.Test;
 
+import java.util.Optional;
+import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Predicate;
 
@@ -42,9 +47,25 @@ public class Bulid_In_Functional_InterfaceDemo03 {
         System.out.println(predicateDemo04.test("X"));
     }
 
+    /**
+     * function
+     */
     @Test
     public void demo02() {
+        FunctionsDemo<String, Integer> demo = t -> Integer.valueOf(t);
+        System.out.println(demo.apply("123" + "1"));
+        FunctionsDemo<String, String> demo01 = demo.andThen(String::valueOf);
+        System.out.println(demo01.apply("123").getClass());
+    }
 
+    @Test
+    public void demo03() {
+        ConsumerDemo<PersonBo> gerter = p -> System.out.println("Hello, " + p.firstName);
+        gerter.accept(new PersonBo("Yueelo", "Liang"));
+    }
+
+    @Test
+    public void demo04() {
     }
 
 }

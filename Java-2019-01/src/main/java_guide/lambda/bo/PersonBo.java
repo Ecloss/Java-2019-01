@@ -7,8 +7,8 @@ package lambda.bo;
  * @date 2019/4/2 17:00
  */
 public class PersonBo {
-    String firstName;
-    String lastName;
+    public String firstName;
+    public String lastName;
 
     public PersonBo() {
     }
