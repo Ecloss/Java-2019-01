@@ -18,13 +18,13 @@ public final class OptionalDemo<T> {
         this.value = null;
     }
 
+    private OptionalDemo(T value) {
+        this.value = Objects.requireNonNull(value);
+    }
+
     public static <T> OptionalDemo<T> empty() {
         OptionalDemo<T> t = (OptionalDemo<T>) EMPTY;
         return t;
-    }
-
-    private OptionalDemo(T value) {
-        this.value = Objects.requireNonNull(value);
     }
 
     public static <T> OptionalDemo<T> of(T value) {
@@ -48,15 +48,6 @@ public final class OptionalDemo<T> {
     public void ifPresent(ConsumerDemo<? super T> consumerDemo) {
         if (value != null) {
             consumerDemo.accept(value);
-        }
-    }
-
-    public OptionalDemo<T> filter(PredicateDemo01<? super T> predicateDemo01) {
-        Objects.requireNonNull(predicateDemo01);
-        if (!isPresent()) {
-            return this;
-        } else {
-            return predicateDemo01.test(value) ? this : empty();
         }
     }
 
