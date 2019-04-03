@@ -1,4 +1,4 @@
-package lambda.code;
+package lambda.function_interface;
 
 /**
  * @author 余修文

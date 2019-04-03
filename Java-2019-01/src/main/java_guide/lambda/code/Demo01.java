@@ -1,6 +1,8 @@
 package lambda.code;
 
 import lambda.bo.PersonBo;
+import lambda.function_interface.Converter;
+import lambda.function_interface.Formula;
 import lambda.function_interface.PersonFactory;
 import org.junit.Test;
 

@@ -1,5 +1,6 @@
 package lambda.code;
 
+import lambda.function_interface.Converter;
 import org.junit.Test;
 
 /**

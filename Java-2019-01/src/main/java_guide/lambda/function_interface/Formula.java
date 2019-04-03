@@ -1,4 +1,4 @@
-package lambda.code;
+package lambda.function_interface;
 
 /**
  * 获取默认方法
