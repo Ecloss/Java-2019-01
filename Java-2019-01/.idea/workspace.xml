@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5464b039-a623-4ab5-aa88-f0f3251d62d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java_guide/lambda/code/ParallelStreamDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java_guide/lambda/review/LambdaRevDemo02.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Java-Design" beforeDir="false" afterPath="$PROJECT_DIR$/../Java-Design" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Java-EE" beforeDir="false" afterPath="$PROJECT_DIR$/../Java-EE" afterDir="false" />
@@ -18,11 +18,11 @@
     <window id="3">
       <content type="file-editors">
         <state>
-          <leaf>
+          <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
             <file pinned="false" current-in-tab="false">
               <entry file="file://$PROJECT_DIR$/src/main/java_guide/lambda/function_interface/test_interface/FunctionsDemo.java">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="188">
+                  <state relative-caret-position="189">
                     <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
                     <folding>
                       <element signature="imports" expanded="true" />
@@ -36,7 +36,7 @@
             <file pinned="false" current-in-tab="false">
               <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/util/function/Consumer.java">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="-103">
+                  <state relative-caret-position="378">
                     <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
                   </state>
                 </provider>
@@ -45,7 +45,7 @@
             <file pinned="false" current-in-tab="true">
               <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/util/Optional.java">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="-3183">
+                  <state relative-caret-position="21">
                     <caret line="172" column="29" selection-start-line="172" selection-start-column="23" selection-end-line="172" selection-end-column="29" />
                   </state>
                 </provider>
@@ -64,8 +64,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java_guide/lambda/code/StreamDemo04.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1680">
-              <caret line="131" column="24" lean-forward="true" selection-start-line="131" selection-start-column="24" selection-end-line="131" selection-end-column="24" />
+            <state relative-caret-position="222">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -73,11 +73,90 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java_guide/lambda/code/Bulid_In_Functional_InterfaceDemo03.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="562">
+              <caret line="54" column="8" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java_guide/lambda/code/Demo01.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1013">
+              <caret line="22" column="12" lean-forward="true" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java_guide/lambda/function_interface/Formula.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java_guide/lambda/review/LambdaRevDemo02.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="388">
+              <caret line="60" column="42" selection-start-line="60" selection-start-column="42" selection-end-line="60" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/util/stream/Stream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="213">
+              <caret line="853" column="9" selection-start-line="853" selection-start-column="9" selection-end-line="853" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/util/stream/ReferencePipeline.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="213">
+              <caret line="524" column="22" selection-start-line="524" selection-start-column="22" selection-end-line="524" selection-end-column="22" />
+              <folding>
+                <element signature="e#19180#19181#0" expanded="true" />
+                <element signature="e#19227#19228#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java_guide/lambda/code/LambdaDemo02.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java_guide/lambda/code/ParallelStreamDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="667">
-              <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+            <state relative-caret-position="436">
+              <caret line="45" column="7" lean-forward="true" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -98,7 +177,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>modC</find>
       <find>add</find>
       <find>node</find>
       <find>loadFactor</find>
@@ -127,6 +205,7 @@
       <find>AbstractQueuedSynchronizer</find>
       <find>当线程</find>
       <find>empty</find>
+      <find>FunctionsDemo</find>
       <find>stringCollection</find>
     </findStrings>
     <replaceStrings>
@@ -142,7 +221,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java_guide/socket/code/AtomicDemo01.java" />
         <option value="$PROJECT_DIR$/src/main/java_guide/socket/code/AtomicArrayDemo01.java" />
         <option value="$PROJECT_DIR$/src/main/java_guide/socket/code/AtomicReferenceDemo02.java" />
         <option value="$PROJECT_DIR$/src/main/java_guide/socket/code/AtomicUpdaterDemo01.java" />
@@ -193,6 +271,7 @@
         <option value="$PROJECT_DIR$/src/main/java_guide/lambda/function_interface/test_interface/OptionalDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java_guide/lambda/code/StreamDemo04.java" />
         <option value="$PROJECT_DIR$/src/main/java_guide/lambda/code/ParallelStreamDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java_guide/lambda/review/LambdaRevDemo02.java" />
       </list>
     </option>
   </component>
@@ -242,7 +321,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java_guide" type="462c0819:PsiDirectoryNode" />
-              <item name="lambda" type="462c0819:PsiDirectoryNode" />
+              <item name="date" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Java-2019-01" type="b2602c69:ProjectViewProjectNode" />
@@ -251,35 +330,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java_guide" type="462c0819:PsiDirectoryNode" />
               <item name="lambda" type="462c0819:PsiDirectoryNode" />
-              <item name="bo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java-2019-01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java-2019-01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java_guide" type="462c0819:PsiDirectoryNode" />
-              <item name="lambda" type="462c0819:PsiDirectoryNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java-2019-01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java-2019-01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java_guide" type="462c0819:PsiDirectoryNode" />
-              <item name="lambda" type="462c0819:PsiDirectoryNode" />
-              <item name="function_interface" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java-2019-01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Java-2019-01" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java_guide" type="462c0819:PsiDirectoryNode" />
-              <item name="lambda" type="462c0819:PsiDirectoryNode" />
-              <item name="function_interface" type="462c0819:PsiDirectoryNode" />
-              <item name="test_interface" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -309,82 +359,82 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ParallelStreamDemo.demo02">
-    <configuration name="ParallelStreamDemo.demo02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.LambdaRevDemo02.demo08">
+    <configuration name="LambdaRevDemo02.demo04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java-2019-01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.code.*" />
+          <option name="PATTERN" value="lambda.review.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lambda.code" />
-      <option name="MAIN_CLASS_NAME" value="lambda.code.ParallelStreamDemo" />
-      <option name="METHOD_NAME" value="demo02" />
+      <option name="PACKAGE_NAME" value="lambda.review" />
+      <option name="MAIN_CLASS_NAME" value="lambda.review.LambdaRevDemo02" />
+      <option name="METHOD_NAME" value="demo04" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParallelStreamDemo.demo03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LambdaRevDemo02.demo05" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java-2019-01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.code.*" />
+          <option name="PATTERN" value="lambda.review.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lambda.code" />
-      <option name="MAIN_CLASS_NAME" value="lambda.code.ParallelStreamDemo" />
-      <option name="METHOD_NAME" value="demo03" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StreamDemo04.demo05" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java-2019-01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lambda.code.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lambda.code" />
-      <option name="MAIN_CLASS_NAME" value="lambda.code.StreamDemo04" />
+      <option name="PACKAGE_NAME" value="lambda.review" />
+      <option name="MAIN_CLASS_NAME" value="lambda.review.LambdaRevDemo02" />
       <option name="METHOD_NAME" value="demo05" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamDemo04.demo06" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LambdaRevDemo02.demo06" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java-2019-01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.code.*" />
+          <option name="PATTERN" value="lambda.review.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lambda.code" />
-      <option name="MAIN_CLASS_NAME" value="lambda.code.StreamDemo04" />
+      <option name="PACKAGE_NAME" value="lambda.review" />
+      <option name="MAIN_CLASS_NAME" value="lambda.review.LambdaRevDemo02" />
       <option name="METHOD_NAME" value="demo06" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamDemo04.demo07" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LambdaRevDemo02.demo07" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java-2019-01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambda.code.*" />
+          <option name="PATTERN" value="lambda.review.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lambda.code" />
-      <option name="MAIN_CLASS_NAME" value="lambda.code.StreamDemo04" />
+      <option name="PACKAGE_NAME" value="lambda.review" />
+      <option name="MAIN_CLASS_NAME" value="lambda.review.LambdaRevDemo02" />
       <option name="METHOD_NAME" value="demo07" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LambdaRevDemo02.demo08" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java-2019-01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lambda.review.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lambda.review" />
+      <option name="MAIN_CLASS_NAME" value="lambda.review.LambdaRevDemo02" />
+      <option name="METHOD_NAME" value="demo08" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -392,11 +442,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ParallelStreamDemo.demo02" />
-        <item itemvalue="JUnit.ParallelStreamDemo.demo03" />
-        <item itemvalue="JUnit.StreamDemo04.demo07" />
-        <item itemvalue="JUnit.StreamDemo04.demo06" />
-        <item itemvalue="JUnit.StreamDemo04.demo05" />
+        <item itemvalue="JUnit.LambdaRevDemo02.demo08" />
+        <item itemvalue="JUnit.LambdaRevDemo02.demo07" />
+        <item itemvalue="JUnit.LambdaRevDemo02.demo06" />
+        <item itemvalue="JUnit.LambdaRevDemo02.demo05" />
+        <item itemvalue="JUnit.LambdaRevDemo02.demo04" />
       </list>
     </recent_temporary>
   </component>
@@ -447,6 +497,7 @@
       <workItem from="1554078729061" duration="10316000" />
       <workItem from="1554165472637" duration="12170000" />
       <workItem from="1554251739257" duration="21646000" />
+      <workItem from="1554337985152" duration="3345000" />
     </task>
     <task id="LOCAL-00001" summary="2019--01/20">
       <created>1547988207797</created>
@@ -571,39 +622,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StreamDemo04_demo03 - 2019.04.03 at 16h 51m 34s.xml">
-      <configuration name="StreamDemo04.demo03" configurationId="JUnit" />
+    <history-entry file="LambdaRevDemo02_demo02 - 2019.04.04 at 08h 52m 31s.xml">
+      <configuration name="LambdaRevDemo02.demo02" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StreamDemo04_demo04 - 2019.04.03 at 16h 55m 46s.xml">
-      <configuration name="StreamDemo04.demo04" configurationId="JUnit" />
+    <history-entry file="LambdaRevDemo02_demo03 - 2019.04.04 at 08h 54m 30s.xml">
+      <configuration name="LambdaRevDemo02.demo03" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StreamDemo04_demo04 - 2019.04.03 at 16h 57m 28s.xml">
-      <configuration name="StreamDemo04.demo04" configurationId="JUnit" />
+    <history-entry file="LambdaRevDemo02_demo03 - 2019.04.04 at 08h 54m 45s.xml">
+      <configuration name="LambdaRevDemo02.demo03" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StreamDemo04_demo04 - 2019.04.03 at 16h 59m 06s.xml">
-      <configuration name="StreamDemo04.demo04" configurationId="JUnit" />
+    <history-entry file="LambdaRevDemo02_demo04 - 2019.04.04 at 09h 01m 51s.xml">
+      <configuration name="LambdaRevDemo02.demo04" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StreamDemo04_demo05 - 2019.04.03 at 17h 04m 07s.xml">
-      <configuration name="StreamDemo04.demo05" configurationId="JUnit" />
+    <history-entry file="LambdaRevDemo02_demo04 - 2019.04.04 at 09h 02m 05s.xml">
+      <configuration name="LambdaRevDemo02.demo04" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StreamDemo04_demo06 - 2019.04.03 at 17h 06m 55s.xml">
-      <configuration name="StreamDemo04.demo06" configurationId="JUnit" />
+    <history-entry file="LambdaRevDemo02_demo05 - 2019.04.04 at 09h 04m 12s.xml">
+      <configuration name="LambdaRevDemo02.demo05" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StreamDemo04_demo07 - 2019.04.03 at 17h 09m 49s.xml">
-      <configuration name="StreamDemo04.demo07" configurationId="JUnit" />
+    <history-entry file="LambdaRevDemo02_demo06 - 2019.04.04 at 09h 06m 22s.xml">
+      <configuration name="LambdaRevDemo02.demo06" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ParallelStreamDemo_demo02 - 2019.04.03 at 18h 23m 23s.xml">
-      <configuration name="ParallelStreamDemo.demo02" configurationId="JUnit" />
+    <history-entry file="LambdaRevDemo02_demo07 - 2019.04.04 at 09h 12m 38s.xml">
+      <configuration name="LambdaRevDemo02.demo07" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ParallelStreamDemo_demo03 - 2019.04.03 at 18h 26m 36s.xml">
-      <configuration name="ParallelStreamDemo.demo03" configurationId="JUnit" />
+    <history-entry file="LambdaRevDemo02_demo07 - 2019.04.04 at 09h 14m 04s.xml">
+      <configuration name="LambdaRevDemo02.demo07" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ParallelStreamDemo_demo02 - 2019.04.03 at 18h 26m 58s.xml">
-      <configuration name="ParallelStreamDemo.demo02" configurationId="JUnit" />
+    <history-entry file="LambdaRevDemo02_demo08 - 2019.04.04 at 09h 16m 02s.xml">
+      <configuration name="LambdaRevDemo02.demo08" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="190124000" />
+    <option name="totallyTimeSpent" value="193469000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -616,6 +667,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49833888" weight="0.10756124" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -627,7 +679,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2635659" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26245847" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.40133038" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -673,23 +725,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="2019--04/02" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/util/concurrent/TimeUnit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1806">
-          <caret line="119" column="4" selection-start-line="119" selection-start-column="4" selection-end-line="119" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java_guide/socket/code/AQS/CountDownLatchDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="50" column="47" selection-start-line="50" selection-start-column="47" selection-end-line="50" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java_guide/socket/code/AQS/CyclicBarrierDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="836">
@@ -947,49 +982,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java_guide/lambda/code/Demo01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="102" column="6" selection-start-line="102" selection-start-column="6" selection-end-line="102" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java_guide/lambda/function_interface/Formula.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java_guide/lambda/code/LambdaDemo02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-107">
-          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/util/function/Function.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="54" column="43" lean-forward="true" selection-start-line="54" selection-start-column="43" selection-end-line="54" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java_guide/lambda/function_interface/test_interface/FunctionsDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#812#813#0" expanded="true" />
-            <element signature="e#841#842#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1017,13 +1013,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/util/function/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-103">
-          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java_guide/lambda/review/RevDemo01.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="163">
@@ -1040,13 +1029,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/util/Optional.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3183">
-          <caret line="172" column="29" selection-start-line="172" selection-start-column="23" selection-end-line="172" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -1078,16 +1060,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java_guide/lambda/code/Bulid_In_Functional_InterfaceDemo03.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="43" column="29" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/util/Collection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -1099,27 +1071,111 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/util/stream/Stream.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java_guide/lambda/function_interface/test_interface/FunctionsDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5838">
-          <caret line="168" column="14" selection-start-line="168" selection-start-column="14" selection-end-line="168" selection-end-column="14" />
+        <state relative-caret-position="189">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#812#813#0" expanded="true" />
+            <element signature="e#841#842#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java_guide/lambda/code/StreamDemo04.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/util/function/Consumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1680">
-          <caret line="131" column="24" lean-forward="true" selection-start-line="131" selection-start-column="24" selection-end-line="131" selection-end-column="24" />
+        <state relative-caret-position="378">
+          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/util/Optional.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="172" column="29" selection-start-line="172" selection-start-column="23" selection-end-line="172" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java_guide/lambda/code/Demo01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1013">
+          <caret line="22" column="12" lean-forward="true" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java_guide/lambda/function_interface/Formula.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java_guide/lambda/code/ParallelStreamDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+        <state relative-caret-position="436">
+          <caret line="45" column="7" lean-forward="true" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java_guide/lambda/code/LambdaDemo02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java_guide/lambda/code/StreamDemo04.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java_guide/lambda/code/Bulid_In_Functional_InterfaceDemo03.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="562">
+          <caret line="54" column="8" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/util/stream/Stream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="853" column="9" selection-start-line="853" selection-start-column="9" selection-end-line="853" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/util/stream/ReferencePipeline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="524" column="22" selection-start-line="524" selection-start-column="22" selection-end-line="524" selection-end-column="22" />
+          <folding>
+            <element signature="e#19180#19181#0" expanded="true" />
+            <element signature="e#19227#19228#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java_guide/lambda/review/LambdaRevDemo02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="60" column="42" selection-start-line="60" selection-start-column="42" selection-end-line="60" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
