@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5464b039-a623-4ab5-aa88-f0f3251d62d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java_guide/lambda/code/StreamDemo04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java_guide/lambda/code/ParallelStreamDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java_guide/lambda/function_interface/test_interface/OptionalDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java_guide/lambda/function_interface/test_interface/OptionalDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Java-Design" beforeDir="false" afterPath="$PROJECT_DIR$/../Java-Design" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Java-EE" beforeDir="false" afterPath="$PROJECT_DIR$/../Java-EE" afterDir="false" />
     </list>
@@ -63,24 +62,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java_guide/lambda/review/RevDemo01.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java_guide/lambda/code/StreamDemo04.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="92" column="9" selection-start-line="92" selection-start-column="9" selection-end-line="92" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#422#423#0" expanded="true" />
-                <element signature="e#474#475#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java_guide/lambda/code/Bulid_In_Functional_InterfaceDemo03.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="43" column="29" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
+            <state relative-caret-position="1680">
+              <caret line="131" column="24" lean-forward="true" selection-start-line="131" selection-start-column="24" selection-end-line="131" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -89,104 +74,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java_guide/lambda/code/StreamDemo04.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java_guide/lambda/code/ParallelStreamDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="141" column="33" selection-start-line="141" selection-start-column="33" selection-end-line="141" selection-end-column="33" />
+            <state relative-caret-position="667">
+              <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java_guide/lambda/function_interface/test_interface/OptionalDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#271#272#0" expanded="true" />
-                <element signature="e#304#305#0" expanded="true" />
-                <element signature="e#441#442#0" expanded="true" />
-                <element signature="e#499#500#0" expanded="true" />
-                <element signature="e#575#576#0" expanded="true" />
-                <element signature="e#617#618#0" expanded="true" />
-                <element signature="e#798#799#0" expanded="true" />
-                <element signature="e#856#857#0" expanded="true" />
-                <element signature="e#985#986#0" expanded="true" />
-                <element signature="e#1015#1016#0" expanded="true" />
-                <element signature="e#2393#2394#0" expanded="true" />
-                <element signature="e#2445#2446#0" expanded="true" />
-                <element signature="e#2535#2536#0" expanded="true" />
-                <element signature="e#2593#2594#0" expanded="true" />
-                <element signature="e#2868#2869#0" expanded="true" />
-                <element signature="e#2908#2909#0" expanded="true" />
-                <element signature="e#3281#3282#0" expanded="true" />
-                <element signature="e#3334#3335#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java_guide/lambda/function_interface/test_interface/ConsumerDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="15" column="54" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java_guide/lambda/function_interface/test_interface/PredicateDemo01.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/util/function/Predicate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-299">
-              <caret line="68" column="24" selection-start-line="68" selection-start-column="24" selection-end-line="68" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/util/Collections.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="210" column="8" selection-start-line="210" selection-start-column="8" selection-end-line="210" selection-end-column="8" />
-              <folding>
-                <element signature="e#7284#7285#0" expanded="true" />
-                <element signature="e#7312#7313#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/util/Comparator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-6531">
-              <caret line="108" column="17" selection-start-line="108" selection-start-column="17" selection-end-line="108" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java_guide/lambda/bo/PersonBo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -248,7 +142,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java_guide/socket/code/ReenTrantLockDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java_guide/socket/code/AtomicDemo01.java" />
         <option value="$PROJECT_DIR$/src/main/java_guide/socket/code/AtomicArrayDemo01.java" />
         <option value="$PROJECT_DIR$/src/main/java_guide/socket/code/AtomicReferenceDemo02.java" />
@@ -299,6 +192,7 @@
         <option value="$PROJECT_DIR$/src/main/java_guide/lambda/code/Bulid_In_Functional_InterfaceDemo03.java" />
         <option value="$PROJECT_DIR$/src/main/java_guide/lambda/function_interface/test_interface/OptionalDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java_guide/lambda/code/StreamDemo04.java" />
+        <option value="$PROJECT_DIR$/src/main/java_guide/lambda/code/ParallelStreamDemo.java" />
       </list>
     </option>
   </component>
@@ -415,8 +309,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StreamDemo04.demo07">
-    <configuration name="StreamDemo04.demo03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ParallelStreamDemo.demo02">
+    <configuration name="ParallelStreamDemo.demo02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java-2019-01" />
       <extension name="coverage">
         <pattern>
@@ -425,14 +319,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="lambda.code" />
-      <option name="MAIN_CLASS_NAME" value="lambda.code.StreamDemo04" />
-      <option name="METHOD_NAME" value="demo03" />
+      <option name="MAIN_CLASS_NAME" value="lambda.code.ParallelStreamDemo" />
+      <option name="METHOD_NAME" value="demo02" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamDemo04.demo04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ParallelStreamDemo.demo03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java-2019-01" />
       <extension name="coverage">
         <pattern>
@@ -441,8 +335,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="lambda.code" />
-      <option name="MAIN_CLASS_NAME" value="lambda.code.StreamDemo04" />
-      <option name="METHOD_NAME" value="demo04" />
+      <option name="MAIN_CLASS_NAME" value="lambda.code.ParallelStreamDemo" />
+      <option name="METHOD_NAME" value="demo03" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -498,11 +392,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ParallelStreamDemo.demo02" />
+        <item itemvalue="JUnit.ParallelStreamDemo.demo03" />
         <item itemvalue="JUnit.StreamDemo04.demo07" />
         <item itemvalue="JUnit.StreamDemo04.demo06" />
         <item itemvalue="JUnit.StreamDemo04.demo05" />
-        <item itemvalue="JUnit.StreamDemo04.demo04" />
-        <item itemvalue="JUnit.StreamDemo04.demo03" />
       </list>
     </recent_temporary>
   </component>
@@ -552,7 +446,7 @@
       <workItem from="1553833667387" duration="13107000" />
       <workItem from="1554078729061" duration="10316000" />
       <workItem from="1554165472637" duration="12170000" />
-      <workItem from="1554251739257" duration="19635000" />
+      <workItem from="1554251739257" duration="21646000" />
     </task>
     <task id="LOCAL-00001" summary="2019--01/20">
       <created>1547988207797</created>
@@ -677,15 +571,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StreamDemo04_demo02 - 2019.04.03 at 16h 40m 40s.xml">
-      <configuration name="StreamDemo04.demo02" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StreamDemo04_demo02 - 2019.04.03 at 16h 47m 59s.xml">
-      <configuration name="StreamDemo04.demo02" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StreamDemo04_demo03 - 2019.04.03 at 16h 50m 39s.xml">
-      <configuration name="StreamDemo04.demo03" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="StreamDemo04_demo03 - 2019.04.03 at 16h 51m 34s.xml">
       <configuration name="StreamDemo04.demo03" configurationId="JUnit" />
     </history-entry>
@@ -707,9 +592,18 @@
     <history-entry file="StreamDemo04_demo07 - 2019.04.03 at 17h 09m 49s.xml">
       <configuration name="StreamDemo04.demo07" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ParallelStreamDemo_demo02 - 2019.04.03 at 18h 23m 23s.xml">
+      <configuration name="ParallelStreamDemo.demo02" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParallelStreamDemo_demo03 - 2019.04.03 at 18h 26m 36s.xml">
+      <configuration name="ParallelStreamDemo.demo03" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParallelStreamDemo_demo02 - 2019.04.03 at 18h 26m 58s.xml">
+      <configuration name="ParallelStreamDemo.demo02" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="188113000" />
+    <option name="totallyTimeSpent" value="190124000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -722,7 +616,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49833888" weight="0.10756124" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -734,7 +627,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26578072" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2635659" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.40133038" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -780,16 +673,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="2019--04/02" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java_guide/java_util/TestDemo0329.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/util/concurrent/TimeUnit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1806">
@@ -1225,8 +1108,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java_guide/lambda/code/StreamDemo04.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="141" column="33" selection-start-line="141" selection-start-column="33" selection-end-line="141" selection-end-column="33" />
+        <state relative-caret-position="1680">
+          <caret line="131" column="24" lean-forward="true" selection-start-line="131" selection-start-column="24" selection-end-line="131" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java_guide/lambda/code/ParallelStreamDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
