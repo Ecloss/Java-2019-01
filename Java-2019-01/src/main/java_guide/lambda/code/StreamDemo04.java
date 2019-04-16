@@ -1,8 +1,11 @@
 package lambda.code;
 
+import lambda.bo.PersonBo;
 import org.junit.Test;
+import other.other2019_02.inherit.People;
 
 import javax.crypto.interfaces.PBEKey;
+import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
@@ -140,6 +143,35 @@ public class StreamDemo04 {
     public void demo07() {
         String concat = Stream.of("A", "B", "C", "D").reduce("", String::concat);
         System.out.println(concat);
+    }
+
+    @Test
+    public void demo08() {
+        StringBuilder stringBuilder = new StringBuilder();
+        StringBuffer stringBuffer = new StringBuffer();
+    }
+
+    @Test
+    public void demo09() {
+        People people = new People();
+        people.setAge(12);
+        People people1 = new People();
+        people1.setAge(13);
+        System.out.println("People：" + people.getAge());
+        System.out.println("People1：" + people1.getAge());
+    }
+
+    @Test
+    public void demo10() {
+        String str = "13576542323";
+        System.out.println(str.replaceAll("(\\d{3})\\d{4}(\\d{4})","$1****$2"));
+    }
+
+    @Test
+    public void demo11() {
+        BigDecimal b1 = new BigDecimal("5.7640");
+        BigDecimal b2 = new BigDecimal("5.764");
+        System.out.println(b2.compareTo(b1));
     }
 
 }
