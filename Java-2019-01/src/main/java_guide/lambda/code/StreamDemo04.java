@@ -1,5 +1,6 @@
 package lambda.code;
 
+import java_util.source.ArrayListSource;
 import lambda.bo.PersonBo;
 import org.junit.Test;
 import other.other2019_02.inherit.People;
@@ -175,6 +176,7 @@ public class StreamDemo04 {
     @Test
     public void demo12() {
         List<Integer> list = new ArrayList<>();
+        ((ArrayList<Integer>) list).ensureCapacity(123);
         list.add(3);
         list.add(5);
         list.add(7);
@@ -198,6 +200,32 @@ public class StreamDemo04 {
         list1.retainAll(list);
         list.addAll(list1);
 
+    }
+
+    @Test
+    public void demo13() {
+        List<Integer> list = new ArrayList<>();
+    }
+
+    final int N = 10000000;
+    @Test
+    public void demo14() {
+        List<Integer> list = new ArrayListSource<Integer>();
+        long startTime = System.currentTimeMillis();
+        for (int i = 0; i < N; i++) {
+            list.add(i);
+        }
+        long endTime = System.currentTimeMillis();
+        System.out.println("使用ensureCapacity方法前："+(endTime - startTime));
+
+        list = new ArrayListSource<>();
+        long startTime1 = System.currentTimeMillis();
+        ((ArrayListSource<Integer>) list).ensureCapacity(N);
+        for (int i = 0; i < N; i++) {
+            list.add(i);
+        }
+        long endTime1 = System.currentTimeMillis();
+        System.out.println("使用ensureCapacity方法后："+(endTime1 - startTime1));
     }
 
 }

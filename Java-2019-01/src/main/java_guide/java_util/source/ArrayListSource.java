@@ -199,6 +199,13 @@ public class ArrayListSource<E> extends AbstractList<E>
         if (a.length < size) {
             return (T[]) Arrays.copyOf(elementData, size, a.getClass());
         }
+        /**
+         * elementData：源数组，取值的数组
+         * srcPos：源数组的起始位置
+         * a：目标数组，存放的数组
+         * destPos：目标数组起始位置
+         * size：要复制的元素的数量
+         */
         System.arraycopy(elementData, 0, a, 0, size);
 
         if (a.length > size) {
@@ -326,6 +333,7 @@ public class ArrayListSource<E> extends AbstractList<E>
         return numNew != 0;
     }
 
+    @Override
     protected void removeRange(int fromIndex, int toIndex) {
         modCount++;
         int numMoved = size - toIndex;
