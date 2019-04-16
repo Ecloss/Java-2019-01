@@ -6,9 +6,7 @@ import other.other2019_02.inherit.People;
 
 import javax.crypto.interfaces.PBEKey;
 import java.math.BigDecimal;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Optional;
+import java.util.*;
 import java.util.stream.Stream;
 
 /**
@@ -172,6 +170,34 @@ public class StreamDemo04 {
         BigDecimal b1 = new BigDecimal("5.7640");
         BigDecimal b2 = new BigDecimal("5.764");
         System.out.println(b2.compareTo(b1));
+    }
+
+    @Test
+    public void demo12() {
+        List<Integer> list = new ArrayList<>();
+        list.add(3);
+        list.add(5);
+        list.add(7);
+        list.add(2);
+
+        List<Integer> list1 = new ArrayList<>();
+        list1.add(2);
+        list1.add(4);
+        list.add(6);
+
+        // 并集
+        list.addAll(list1);
+
+        // 交集
+        list.retainAll(list1);
+
+        // 差集
+        list.removeAll(list1);
+
+        // 去重复并集
+        list1.retainAll(list);
+        list.addAll(list1);
+
     }
 
 }
