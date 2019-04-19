@@ -246,7 +246,8 @@ public class ArrayListSource<E> extends AbstractList<E>
     public void add(int index, E element) {
         rangeCheckForAdd(index);
 
-        ensureCapacityInternal(size++);
+        ensureCapacityInternal(size + 1);
+
         System.arraycopy(elementData, index, elementData, index + 1, size - index);
         elementData[index] = element;
         size++;

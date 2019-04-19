@@ -3,8 +3,7 @@ package java_util.code;
 import java_util.source.ArrayListSource;
 import org.junit.Test;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 /**
  * @author 余修文
@@ -58,6 +57,34 @@ public class CodeDemo01 {
         list.remove((Object)3);
 
         list.clear();
+    }
+
+    @Test
+    public void demo02() {
+        // 把线程不安全的集合，编程线程安全的集合
+        List list = Collections.synchronizedList(new ArrayListSource<>());
+    }
+
+    /**
+     * Arrays.copy()
+     */
+    @Test
+    public void demo03() {
+        Integer[] a = new Integer[]{1, 3, 5, 7, 9, 2};
+        Integer[] b = new Integer[10];
+        b = Arrays.copyOf(a, a.length);
+        Arrays.asList(b).forEach(i -> System.out.println(i));
+    }
+
+    /**
+     * System.arrayscopy();
+     */
+    @Test
+    public void demo04() {
+        Integer[] a = new Integer[]{1, 3, 5, 7, 9, 12,14};
+        Integer[] b = new Integer[10];
+        System.arraycopy(a, 2, b, 0, a.length - 2);
+        Arrays.asList(b).forEach(i -> System.out.println(i));
     }
 
 }
