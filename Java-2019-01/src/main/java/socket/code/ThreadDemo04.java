@@ -24,8 +24,8 @@ public class ThreadDemo04 {
         Thread thread2 = new Thread(thread, "XiaoBai");
         //Thread thread1 = new Thread(thread);
         //thread1.setName("XiaoBai");
-        thread1.setPriority(Thread.MAX_PRIORITY);
-        thread2.setPriority(Thread.MIN_PRIORITY);
+        //thread1.setPriority(Thread.MAX_PRIORITY);
+        //thread2.setPriority(Thread.MIN_PRIORITY);
         thread1.start();
         thread2.start();
 
@@ -39,9 +39,9 @@ class ThreadDemo05 implements Runnable {
     public void run() {
         for (int i = 0; i < 100; i++) {
             try {
-                Thread.sleep(1000);
+                //Thread.sleep(1000);
                 System.out.println(Thread.currentThread().getName() + "----" + (i+1));
-            } catch (InterruptedException e) {
+            } catch (Exception e) {
                 e.printStackTrace();
             }
         }

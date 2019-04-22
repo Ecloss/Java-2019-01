@@ -2,14 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5464b039-a623-4ab5-aa88-f0f3251d62d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java_guide/java_util/code/HashMapDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java_guide/java_util/code/LinkedListDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java_guide/java_util/source/HashMapSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java_guide/java_util/source/LinkedListSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java_guide/socket/code/synchronizedCode/LockHappySad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java_guide/socket/code/synchronizedCode/MyAQS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java_guide/socket/code/synchronizedCode/SingletonDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java_guide/socket/code/synchronizedCode/SynchronizedDemo01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java_guide/socket/code/synchronizedCode/Thread01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java_guide/java_util/code/CodeDemo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java_guide/java_util/code/CodeDemo01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java_guide/java_util/source/ArrayListSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java_guide/java_util/source/ArrayListSource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/lambda/code/StreamDemo04.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/lambda/code/StreamDemo04.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/socket/code/ThreadDemo04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/socket/code/ThreadDemo04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/socket/code/ThreadDemo06.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/socket/code/ThreadDemo06.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/socket/code/ThreadDemo04.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/socket/code/ThreadDemo04.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/socket/code/ThreadDemo05.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/socket/code/ThreadDemo05.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/socket/code/ThreadDemo07.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/socket/code/ThreadDemo07.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Java-Design" beforeDir="false" afterPath="$PROJECT_DIR$/../Java-Design" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Java-EE" beforeDir="false" afterPath="$PROJECT_DIR$/../Java-EE" afterDir="false" />
     </list>
@@ -26,119 +29,100 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java_guide/lambda/code/StreamDemo04.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java_guide/socket/code/AQS/CountDownLatchDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="924">
-              <caret line="52" column="26" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
+            <state relative-caret-position="210">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java_guide/socket/code/AQS/AQSDemo01.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="11" column="57" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="16590">
+              <caret line="835" column="22" selection-start-line="835" selection-start-column="22" selection-end-line="835" selection-end-column="22" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#22675#22676#0" expanded="true" />
+                <element signature="e#22703#22704#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java_guide/java_util/source/HashMapSource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3444">
-              <caret line="164" column="55" selection-start-line="164" selection-start-column="55" selection-end-line="164" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java_guide/java_util/code/HashMapDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1155">
-              <caret line="55" selection-start-line="55" selection-end-line="55" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java_guide/java_util/code/CodeDemo01.java">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/util/concurrent/locks/LockSupport.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="72" column="54" lean-forward="true" selection-start-line="72" selection-start-column="54" selection-end-line="72" selection-end-column="54" />
+            <state relative-caret-position="347">
+              <caret line="174" column="31" lean-forward="true" selection-start-line="174" selection-start-column="31" selection-end-line="174" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java_guide/socket/code/synchronizedCode/MyAQS.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="20" selection-start-line="20" selection-end-line="28" selection-end-column="5" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#349#350#0" expanded="true" />
+                <element signature="e#372#373#0" expanded="true" />
+                <element signature="e#431#432#0" expanded="true" />
+                <element signature="e#475#476#0" expanded="true" />
+                <element signature="e#534#535#0" expanded="true" />
+                <element signature="e#578#579#0" expanded="true" />
+                <element signature="e#639#640#0" expanded="true" />
+                <element signature="e#689#690#0" expanded="true" />
+                <element signature="e#754#755#0" expanded="true" />
+                <element signature="e#804#805#0" expanded="true" />
+                <element signature="e#863#864#0" expanded="true" />
+                <element signature="e#911#912#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/util/Arrays.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java_guide/socket/code/ReenTrantLockDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="3207" column="28" selection-start-line="3207" selection-start-column="28" selection-end-line="3207" selection-end-column="28" />
+            <state relative-caret-position="420">
+              <caret line="23" column="49" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/lang/System.java">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/jre/lib/rt.jar!/sun/misc/Unsafe.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="492" column="30" selection-start-line="492" selection-start-column="30" selection-end-line="492" selection-end-column="30" />
+            <state relative-caret-position="5460">
+              <caret line="305" column="32" selection-start-line="305" selection-start-column="32" selection-end-line="305" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/util/HashMap.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java_guide/socket/code/synchronizedCode/SynchronizedDemo01.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25452">
-              <caret line="1271" column="16" selection-start-line="1271" selection-start-column="16" selection-end-line="1271" selection-end-column="16" />
-              <folding>
-                <element signature="e#66429#66430#0" expanded="true" />
-                <element signature="e#66486#66487#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1533">
+              <caret line="73" column="21" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/util/LinkedHashMap.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java_guide/socket/code/synchronizedCode/SingletonDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3612">
-              <caret line="200" column="7" selection-end-line="748" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/util/Objects.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
-              <caret line="57" column="26" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
-              <folding>
-                <element signature="e#1410#1411#0" expanded="true" />
-                <element signature="e#1471#1472#0" expanded="true" />
-                <element signature="e#2786#2787#0" expanded="true" />
-                <element signature="e#2837#2838#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/lang/Object.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1596">
-              <caret line="99" column="22" selection-start-line="99" selection-start-column="22" selection-end-line="99" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java_guide/java_util/code/LinkedListDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1743">
-              <caret line="87" column="5" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="231">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -157,14 +141,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>hashCode</find>
-      <find>public HashMap</find>
-      <find>batch</find>
-      <find>ListItr</find>
-      <find>contain</find>
-      <find>Sys</find>
-      <find>System</find>
-      <find>toArray</find>
       <find>hugeCapacity</find>
       <find>linkLa</find>
       <find>LinkedListSourceSource</find>
@@ -180,13 +156,21 @@
       <find>unlink</find>
       <find>Iterator&lt;Integer&gt; iterator = linkedList.iterator();</find>
       <find>remove</find>
-      <find>get</find>
       <find>TreeNode</find>
       <find>Node</find>
       <find>putMap</find>
       <find>putMapEntries</find>
       <find>resize</find>
       <find>putVal</find>
+      <find>synchronized</find>
+      <find>Thread</find>
+      <find>getName</find>
+      <find>.incrementAndGet</find>
+      <find>get</find>
+      <find>get(</find>
+      <find>compare</find>
+      <find>state</find>
+      <find>native</find>
     </findStrings>
     <replaceStrings>
       <replace>list</replace>
@@ -202,13 +186,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/other/other2019_03/day0328/TestInterface.java" />
-        <option value="$PROJECT_DIR$/src/main/java/other/other2019_03/Demo0328.java" />
-        <option value="$PROJECT_DIR$/src/main/java_guide/java_util/TestArrays.java" />
-        <option value="$PROJECT_DIR$/src/main/java_guide/java_util/HashMapSource.java" />
-        <option value="$PROJECT_DIR$/src/main/java_guide/socket/code/AQSDemo01.java" />
-        <option value="$PROJECT_DIR$/src/main/java_guide/java_util/TestDemo0329.java" />
-        <option value="$PROJECT_DIR$/src/main/java_guide/socket/code/AQS/SemphoreDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java_guide/socket/code/AQS/SemaphoreDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java_guide/socket/code/AQS/CountDownLatchDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java_guide/socket/code/AQS/CyclicBarrier.java" />
@@ -253,12 +230,18 @@
         <option value="$PROJECT_DIR$/src/main/java_guide/java_util/source/HashMapSource.java" />
         <option value="$PROJECT_DIR$/src/main/java_guide/java_util/code/HashMapDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java_guide/java_util/code/CodeDemo01.java" />
+        <option value="$PROJECT_DIR$/src/main/java_guide/socket/code/synchronizedCode/Thread01.java" />
+        <option value="$PROJECT_DIR$/src/main/java/socket/code/ThreadDemo04.java" />
+        <option value="$PROJECT_DIR$/src/main/java/socket/code/ThreadDemo06.java" />
+        <option value="$PROJECT_DIR$/src/main/java_guide/socket/code/synchronizedCode/SynchronizedDemo01.java" />
+        <option value="$PROJECT_DIR$/src/main/java_guide/socket/code/synchronizedCode/SingletonDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java_guide/socket/code/synchronizedCode/LockHappySad.java" />
+        <option value="$PROJECT_DIR$/src/main/java_guide/socket/code/synchronizedCode/MyAQS.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
-    <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -270,7 +253,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -294,6 +277,90 @@
               <item name="Java-2019-01" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java-2019-01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java-2019-01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="socket" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java-2019-01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java-2019-01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="socket" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java-2019-01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java-2019-01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="socket" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="ConsumerDemo08.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="Java-2019-01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java-2019-01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="socket" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="DeadLockDemo07.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="Java-2019-01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java-2019-01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="socket" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="ThreadDemo02.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="Java-2019-01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java-2019-01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="socket" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="ThreadDemo03.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="Java-2019-01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java-2019-01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="socket" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="ThreadDemo04.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="Java-2019-01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java-2019-01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="socket" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="ThreadDemo06.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="Java-2019-01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java-2019-01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java_guide" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -303,6 +370,14 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java_guide" type="462c0819:PsiDirectoryNode" />
               <item name="basic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java-2019-01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java-2019-01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java_guide" type="462c0819:PsiDirectoryNode" />
+              <item name="IO" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Java-2019-01" type="b2602c69:ProjectViewProjectNode" />
@@ -330,11 +405,108 @@
               <item name="java_util" type="462c0819:PsiDirectoryNode" />
               <item name="source" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Java-2019-01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java-2019-01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java_guide" type="462c0819:PsiDirectoryNode" />
+              <item name="socket" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java-2019-01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java-2019-01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java_guide" type="462c0819:PsiDirectoryNode" />
+              <item name="socket" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java-2019-01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java-2019-01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java_guide" type="462c0819:PsiDirectoryNode" />
+              <item name="socket" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="AQS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java-2019-01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java-2019-01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java_guide" type="462c0819:PsiDirectoryNode" />
+              <item name="socket" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="synchronizedCode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java-2019-01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java-2019-01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java_guide" type="462c0819:PsiDirectoryNode" />
+              <item name="socket" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="synchronizedCode" type="462c0819:PsiDirectoryNode" />
+              <item name="SynchronizedDemo01.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="Java-2019-01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="Java-2019-01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="Java-2019-01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java-2019-01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java-2019-01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java-2019-01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java-2019-01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="locks" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -342,6 +514,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548036018109" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -358,13 +531,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CodeDemo01.demo04">
-    <configuration name="HashMapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java_util.code.HashMapDemo" />
+  <component name="RunManager" selected="Application.SynchronizedDemo01">
+    <configuration name="SynchronizedDemo01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="socket.code.synchronizedCode.SynchronizedDemo01" />
       <module name="Java-2019-01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java_util.code.*" />
+          <option name="PATTERN" value="socket.code.synchronizedCode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -372,12 +545,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java_util.code.LinkedListDemo" />
+    <configuration name="ThreadDemo02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="socket.code.ThreadDemo02" />
       <module name="Java-2019-01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java_util.code.*" />
+          <option name="PATTERN" value="socket.code.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -385,49 +558,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CodeDemo01.demo03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ThreadDemo06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="socket.code.ThreadDemo06" />
       <module name="Java-2019-01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java_util.code.*" />
+          <option name="PATTERN" value="socket.code.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="java_util.code" />
-      <option name="MAIN_CLASS_NAME" value="java_util.code.CodeDemo01" />
-      <option name="METHOD_NAME" value="demo03" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CodeDemo01.demo04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SynchronizedDemo01.demo01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java-2019-01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java_util.code.*" />
+          <option name="PATTERN" value="socket.code.synchronizedCode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="java_util.code" />
-      <option name="MAIN_CLASS_NAME" value="java_util.code.CodeDemo01" />
-      <option name="METHOD_NAME" value="demo04" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LinkedListDemo.demo01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java-2019-01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java_util.code.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="java_util.code" />
-      <option name="MAIN_CLASS_NAME" value="java_util.code.LinkedListDemo" />
+      <option name="PACKAGE_NAME" value="socket.code.synchronizedCode" />
+      <option name="MAIN_CLASS_NAME" value="socket.code.synchronizedCode.SynchronizedDemo01" />
       <option name="METHOD_NAME" value="demo01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SynchronizedDemo01.demo02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java-2019-01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="socket.code.synchronizedCode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="socket.code.synchronizedCode" />
+      <option name="MAIN_CLASS_NAME" value="socket.code.synchronizedCode.SynchronizedDemo01" />
+      <option name="METHOD_NAME" value="demo02" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -435,11 +605,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CodeDemo01.demo04" />
-        <item itemvalue="JUnit.CodeDemo01.demo03" />
-        <item itemvalue="Application.HashMapDemo" />
-        <item itemvalue="JUnit.LinkedListDemo.demo01" />
-        <item itemvalue="Application.LinkedListDemo" />
+        <item itemvalue="Application.SynchronizedDemo01" />
+        <item itemvalue="JUnit.SynchronizedDemo01.demo01" />
+        <item itemvalue="JUnit.SynchronizedDemo01.demo02" />
+        <item itemvalue="Application.ThreadDemo02" />
+        <item itemvalue="Application.ThreadDemo06" />
       </list>
     </recent_temporary>
   </component>
@@ -499,7 +669,8 @@
       <workItem from="1555375810202" duration="20076000" />
       <workItem from="1555470137563" duration="11004000" />
       <workItem from="1555491531764" duration="2884000" />
-      <workItem from="1555634486511" duration="3191000" />
+      <workItem from="1555634486511" duration="13451000" />
+      <workItem from="1555893677008" duration="283000" />
     </task>
     <task id="LOCAL-00001" summary="2019--01/20">
       <created>1547988207797</created>
@@ -641,28 +812,17 @@
       <option name="project" value="LOCAL" />
       <updated>1555408310385</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="2019--04/19">
+      <created>1555648607606</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1555648607606</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StreamDemo04_demo14 - 2019.04.16 at 17h 27m 41s.xml">
-      <configuration name="StreamDemo04.demo14" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StreamDemo04_demo14 - 2019.04.16 at 17h 29m 41s.xml">
-      <configuration name="StreamDemo04.demo14" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LinkedListDemo_demo01 - 2019.04.17 at 14h 40m 00s.xml">
-      <configuration name="LinkedListDemo.demo01" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LinkedListDemo_demo01 - 2019.04.17 at 14h 41m 30s.xml">
-      <configuration name="LinkedListDemo.demo01" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LinkedListDemo_demo01 - 2019.04.17 at 14h 42m 34s.xml">
-      <configuration name="LinkedListDemo.demo01" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LinkedListDemo_demo01 - 2019.04.17 at 14h 43m 04s.xml">
-      <configuration name="LinkedListDemo.demo01" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LinkedListDemo_demo01 - 2019.04.17 at 14h 43m 13s.xml">
       <configuration name="LinkedListDemo.demo01" configurationId="JUnit" />
     </history-entry>
@@ -675,9 +835,27 @@
     <history-entry file="CodeDemo01_demo04 - 2019.04.19 at 08h 50m 39s.xml">
       <configuration name="CodeDemo01.demo04" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SynchronizedDemo01_demo02 - 2019.04.19 at 13h 04m 02s.xml">
+      <configuration name="SynchronizedDemo01.demo02" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SynchronizedDemo01_demo02 - 2019.04.19 at 13h 04m 32s.xml">
+      <configuration name="SynchronizedDemo01.demo02" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SynchronizedDemo01_demo02 - 2019.04.19 at 13h 05m 38s.xml">
+      <configuration name="SynchronizedDemo01.demo02" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SynchronizedDemo01_demo02 - 2019.04.19 at 13h 06m 11s.xml">
+      <configuration name="SynchronizedDemo01.demo02" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SynchronizedDemo01_demo02 - 2019.04.19 at 13h 06m 36s.xml">
+      <configuration name="SynchronizedDemo01.demo02" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SynchronizedDemo01_demo01 - 2019.04.19 at 13h 09m 06s.xml">
+      <configuration name="SynchronizedDemo01.demo01" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="247158000" />
+    <option name="totallyTimeSpent" value="257701000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -689,20 +867,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <frame x="-8" y="0" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49833888" weight="0.1315229" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49723145" visible="true" weight="0.13258786" />
+      <window_info id="Structure" order="1" sideWeight="0.5027686" side_tool="true" weight="0.13258786" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.5016611" side_tool="true" weight="0.14110756" />
-      <window_info id="Web" order="7" side_tool="true" />
+      <window_info id="Favorites" order="6" sideWeight="0.5016611" side_tool="true" weight="0.1315229" />
+      <window_info id="Web" order="7" sideWeight="0.5016611" side_tool="true" weight="0.1315229" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24584718" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24031007" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.40133038" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -746,212 +924,10 @@
     <MESSAGE value="2019--03/28" />
     <MESSAGE value="2019--04/02" />
     <MESSAGE value="2019--04/16" />
-    <option name="LAST_COMMIT_MESSAGE" value="2019--04/16" />
+    <MESSAGE value="2019--04/19" />
+    <option name="LAST_COMMIT_MESSAGE" value="2019--04/19" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java_guide/lambda/function_interface/test_interface/ConsumerDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="54" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java_guide/lambda/bo/PersonBo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java_guide/lambda/review/RevDemo01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="92" column="9" selection-start-line="92" selection-start-column="9" selection-end-line="92" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#422#423#0" expanded="true" />
-            <element signature="e#474#475#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java_guide/lambda/function_interface/test_interface/PredicateDemo01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java_guide/lambda/function_interface/test_interface/OptionalDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#271#272#0" expanded="true" />
-            <element signature="e#304#305#0" expanded="true" />
-            <element signature="e#441#442#0" expanded="true" />
-            <element signature="e#499#500#0" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
-            <element signature="e#617#618#0" expanded="true" />
-            <element signature="e#798#799#0" expanded="true" />
-            <element signature="e#856#857#0" expanded="true" />
-            <element signature="e#985#986#0" expanded="true" />
-            <element signature="e#1015#1016#0" expanded="true" />
-            <element signature="e#2393#2394#0" expanded="true" />
-            <element signature="e#2445#2446#0" expanded="true" />
-            <element signature="e#2535#2536#0" expanded="true" />
-            <element signature="e#2593#2594#0" expanded="true" />
-            <element signature="e#2868#2869#0" expanded="true" />
-            <element signature="e#2908#2909#0" expanded="true" />
-            <element signature="e#3281#3282#0" expanded="true" />
-            <element signature="e#3334#3335#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java_guide/lambda/code/ParallelStreamDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="45" column="7" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java_guide/lambda/code/LambdaDemo02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/util/stream/Stream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="853" column="9" selection-start-line="853" selection-start-column="9" selection-end-line="853" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/util/stream/ReferencePipeline.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="524" column="22" selection-start-line="524" selection-start-column="22" selection-end-line="524" selection-end-column="22" />
-          <folding>
-            <element signature="e#19180#19181#0" expanded="true" />
-            <element signature="e#19227#19228#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java_guide/date/code/DateDemo01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java_guide/date/interfaceDemo/Hints.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java_guide/lambda/code/Bulid_In_Functional_InterfaceDemo03.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="54" column="8" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java_guide/lambda/code/Demo01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java_guide/lambda/function_interface/Formula.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java_guide/lambda/review/LambdaRevDemo02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1953">
-          <caret line="101" column="61" selection-start-line="101" selection-start-column="61" selection-end-line="101" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java_guide/lambda/function_interface/test_interface/FunctionsDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#812#813#0" expanded="true" />
-            <element signature="e#841#842#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/util/function/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/util/Optional.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="172" column="29" selection-start-line="172" selection-start-column="23" selection-end-line="172" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java_guide/date/interfaceDemo/Hint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/time/Instant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="223" column="19" selection-start-line="223" selection-start-column="19" selection-end-line="223" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/lang/StringBuffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1533">
-          <caret line="96" column="20" selection-start-line="96" selection-start-column="20" selection-end-line="96" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/lang/StringBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3171">
@@ -1243,13 +1219,190 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java_guide/socket/code/SynchronizedDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java_guide/java_util/code/CodeDemo01.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="72" column="54" lean-forward="true" selection-start-line="72" selection-start-column="54" selection-end-line="72" selection-end-column="54" />
+        <state relative-caret-position="311">
+          <caret line="69" column="7" lean-forward="true" selection-start-line="69" selection-start-column="7" selection-end-line="69" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/socket/code/DeadLockDemo07.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/socket/code/ConsumerDemo08.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="29" column="23" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java_guide/socket/code/synchronizedCode/Thread01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/socket/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="336">
+            <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/socket/code/ThreadDemo03.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/socket/code/ThreadDemo04.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="679">
+          <caret line="43" column="30" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/socket/code/ThreadDemo02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="31" column="4" lean-forward="true" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="695" column="29" selection-start-line="695" selection-start-column="29" selection-end-line="695" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/socket/code/ThreadDemo06.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="637">
+          <caret line="41" column="11" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
+          <folding>
+            <element signature="e#2032#2033#0" expanded="true" />
+            <element signature="e#2060#2061#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java_guide/socket/code/synchronizedCode/LockHappySad.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="25" column="15" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#521#522#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java_guide/socket/code/AQS/CountDownLatchDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java_guide/socket/code/AQS/AQSDemo01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="57" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16590">
+          <caret line="835" column="22" selection-start-line="835" selection-start-column="22" selection-end-line="835" selection-end-column="22" />
+          <folding>
+            <element signature="e#22675#22676#0" expanded="true" />
+            <element signature="e#22703#22704#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java_guide/socket/code/synchronizedCode/MyAQS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="20" selection-start-line="20" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="e#349#350#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#431#432#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+            <element signature="e#534#535#0" expanded="true" />
+            <element signature="e#578#579#0" expanded="true" />
+            <element signature="e#639#640#0" expanded="true" />
+            <element signature="e#689#690#0" expanded="true" />
+            <element signature="e#754#755#0" expanded="true" />
+            <element signature="e#804#805#0" expanded="true" />
+            <element signature="e#863#864#0" expanded="true" />
+            <element signature="e#911#912#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java_guide/socket/code/ReenTrantLockDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="23" column="49" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/jre/lib/rt.jar!/sun/misc/Unsafe.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5460">
+          <caret line="305" column="32" selection-start-line="305" selection-start-column="32" selection-end-line="305" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java_guide/socket/code/synchronizedCode/SynchronizedDemo01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1533">
+          <caret line="73" column="21" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java_guide/socket/code/synchronizedCode/SingletonDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/util/concurrent/locks/LockSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="174" column="31" lean-forward="true" selection-start-line="174" selection-start-column="31" selection-end-line="174" selection-end-column="31" />
         </state>
       </provider>
     </entry>

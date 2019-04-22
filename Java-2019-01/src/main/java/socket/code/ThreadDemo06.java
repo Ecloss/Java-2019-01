@@ -39,7 +39,7 @@ class ThreadDemo07 implements Runnable {
     /**
      * 同步方法
      */
-    public synchronized void sale() {
+    public  void sale() {
         if (this.ticket > 0) {
             try {
                 Thread.sleep(100);
